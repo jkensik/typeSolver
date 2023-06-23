@@ -1,0 +1,3 @@
+packages: typeDataStuff.cabal
+with-compiler: /home/jack/Downloads/ghc-9.6.1/ghc-9.6.0.20230111-x86_64-deb10-linux/ghc-9.6.0.20230111-x86_64-unknown-linux/bin/ghc
+

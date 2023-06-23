@@ -1,0 +1,25 @@
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Prelude]

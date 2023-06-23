@@ -1,0 +1,3752 @@
+Adding diagnostic:
+  app/Main.hs:1:1:: Module `Prelude' implicitly imported
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+Adding diagnostic:
+  app/Main.hs:35:18::
+      Unused quantified type variable ‘(k :: Solver u)’
+      In the standalone kind signature for O
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+---- tcTyClGroup ---- {
+Decls for [Solver]
+tcExtendKindEnv [r6 :-> APromotionErr TyConPE]
+---- kcTyClGroup ---- {
+  module Main
+  type data Solver :: k_alU -> *
+checkInitialKinds { []
+checkInitialKinds done }
+tcExtendKindEnvList []
+pushLevelAndSolveEqualitiesX {
+  Called from pushLevelAndSolveEqualities
+inferInitialKinds { [Solver]
+newMetaKindVar k_aEE[tau:1]
+bindImplicitTKBndrsX
+  [k_alU]
+  [k_alU[tyv:1]]
+tc_extend_local_env
+  [(k_alU, Type variable ‘k_alU’ = k_alU[tyv:1] :: k_aEE[tau:1])]
+tcExtendBinderStack [k_alU k_alU[tyv:1]]
+bindExplicitTKBndrs []
+solveEqualities { Called from tcLHsKindSig
+lk1 k_alU
+tcInferTyApps {
+  k_alU
+  []
+tcInferTyApps } k_alU[tyv:1] :: k_aEE[tau:1]
+checkExpectedKind
+  k_alU[tyv:1]
+  k_aEE[tau:1]
+checkExpectedKindX
+  k_alU
+  act_kind': k_aEE[tau:1]
+  exp_kind: *
+u_tys
+  tclvl 1
+  k_aEE[tau:1] ~ *
+  arising from a type equality k_aEE[tau:1] ~ *
+u_tys
+  tclvl 1
+  * ~ *
+  arising from a kind equality arising from k_aEE[tau:1] ~ *
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aEE[tau:1] :: *
+  * :: *
+  True
+  <*>_N
+writeMetaTyVar k_aEE[tau:1] :: * := *
+u_tys yields no coercion
+checkExpectedKind
+  k_aEE[tau:1]
+  *
+  <*>_N
+checkExpectedKind
+  *
+  *
+checkExpectedKindX
+  *
+  act_kind': *
+  exp_kind: *
+lk1 Many
+tcTyVar
+  Many []
+  Nothing
+tcInferTyApps {
+  Many
+  []
+tcInferTyApps } Many :: ghc-prim:GHC.Types.Multiplicity
+checkExpectedKind
+  Many
+  ghc-prim:GHC.Types.Multiplicity
+checkExpectedKindX
+  Many
+  act_kind': ghc-prim:GHC.Types.Multiplicity
+  exp_kind: ghc-prim:GHC.Types.Multiplicity
+checkExpectedKind
+  k_alU[tyv:1] -> *
+  *
+checkExpectedKindX
+  k_alU -> *
+  act_kind': *
+  exp_kind: *
+newNoTcEvBinds unique = aEF
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+zonkSimples done: {}
+emitFlatConstraints { WC {}
+emitFlatConstraints }
+  simples: {}
+  errs:    {}
+emitDelayedErrors {}
+solveEqualities }
+tcLHsKindSig
+  k_alU -> *
+  k_alU[tyv:1] -> *
+kindGeneralizeNone k_alU[tyv:1] -> *
+checkValidType k_alU[tyv:1] -> * :: *
+done ct k_alU[tyv:1] -> *
+Ambiguity check for k_alU[tyv:1] -> *
+tc_sub_type (general case)
+  ty_actual   = k_alU[tyv:1] -> *
+  ty_expected = k_alU[tyv:1] -> *
+u_tys
+  tclvl 1
+  k_alU[tyv:1] -> * ~ k_alU[tyv:1] -> *
+  arising from a type equality k_alU[tyv:1] -> * ~ k_alU[tyv:1] -> *
+u_tys
+  tclvl 1
+  k_alU[tyv:1] ~ k_alU[tyv:1]
+  arising from a type equality k_alU[tyv:1] -> * ~ k_alU[tyv:1] -> *
+u_tys yields no coercion
+u_tys
+  tclvl 1
+  * ~ *
+  arising from a type equality k_alU[tyv:1] -> * ~ k_alU[tyv:1] -> *
+u_tys yields no coercion
+u_tys
+  tclvl 1
+  Many ~ Many
+  arising from a type equality k_alU[tyv:1] -> * ~ k_alU[tyv:1] -> *
+u_tys yields no coercion
+u_tys yields no coercion
+simplifyAmbiguityCheck {
+  type =  k_alU[tyv:1] -> *
+  wanted =  WC {}
+newTcEvBinds unique = aEG
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyAmbiguityCheck }
+reportUnsolved(ambig) {
+reportUnsolved(ambig) }
+Done ambiguity check for k_alU[tyv:1] -> *
+checkValidType done k_alU[tyv:1] -> * :: *
+tcLHsKindSig2 k_alU[tyv:1] -> *
+kcInferDeclHeader: not-cusk
+  Solver
+  [k_alU]
+  []
+  [k_alU[tyv:1]]
+  []
+  k_alU[tyv:1] -> *
+inferInitialKinds done }
+kcTyClGroup: initial kinds Solver :: k_alU[tyv:1] -> *
+tcExtendKindEnvList
+  [(Solver, ATcTyCon Solver[tc] :: k_alU[tyv:1] -> *)]
+kcTyClDecl { Solver
+tc_extend_local_env
+  [(k_alU, Type variable ‘k_alU’ = k_alU[tyv:1] :: k_aEE[tau:1])]
+tcExtendBinderStack [k_alU k_alU[tyv:1]]
+kcTyClDecl
+  Solver[tc]
+  []
+  k_alU[tyv:1] -> *
+kcTyClDecl done } Solver
+newNoTcEvBinds unique = aEH
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+pushLevelAndSolveEqualities }
+  Residual: WC {}
+  Level: 1
+Skolemising k_alU[tyv:1] := k_alU[sk:1]
+writeMetaTyVar k_alU[tyv:1] :: * := k_alU[sk:1]
+Skipping swizzleTcTyConBndrs for Solver[tc] k_alU[sk:1]
+quantifyTyVars has nothing to quantify
+generaliseTcTyCon: pre zonk
+  tycon = Solver[tc]
+  spec_req_tvs = k_alU[sk:1]
+  tc_res_kind = k_alU[sk:1] -> *
+  dvs1 = DV {dv_kvs = {k_alU[sk:1]}, dv_tvs = {}, dv_cvs = {}}
+  inferred =
+generaliseTcTyCon: post zonk
+  tycon = Solver[tc]
+  inferred =
+  spec_req_tvs = k_alU[sk:1]
+  sorted_spec_tvs = k_alU[sk:1]
+  req_tvs = []
+generaliseTcTyCon done
+  tycon = Solver[tc]
+  tc_res_kind = *
+  dep_fv_set = {k_alU[sk:1]}
+  inferred_tcbs = []
+  specified_tcbs = [[spec] (@k_alU[sk:1])]
+  required_tcbs = []
+  final_tcbs = [[spec] (@k_alU[sk:1]),
+                [->] (@(a_aEJ[sk:1] :: k_alU[sk:1]))]
+---- kcTyClGroup end ---- } Solver :: forall k. k -> *
+tcTyAndCl generalized kinds
+  (Solver,
+   [[spec] (@k_alU[sk:1]), [->] (@(a_aEJ[sk:1] :: k_alU[sk:1]))],
+   *
+   True)
+tcExtendKindEnvList
+  [(Solver, ATcTyCon Solver[tc] :: forall k. k -> *)]
+---- tcTyClDecl ---- { type data Solver :: k_alU -> *
+bindTyClTyVars
+  Solver
+  [[spec] (@k_alU[sk:1]), [->] (@(a_aEJ[sk:1] :: k_alU[sk:1]))]
+tc_extend_local_env
+  [(k_alU, Type variable ‘k_alU’ = k_alU[sk:1] :: *),
+   (a_aEJ, Type variable ‘a_aEJ’ = a_aEJ[sk:1] :: k_alU[sk:1])]
+tcExtendBinderStack [k_alU k_alU[sk:1], a_aEJ a_aEJ[sk:1]]
+checkDataKindSig *
+pushLevelAndSolveEqualitiesX {
+  Called from pushLevelAndSolveEqualities
+newNoTcEvBinds unique = aEK
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+pushLevelAndSolveEqualities }
+  Residual: WC {}
+  Level: 1
+doNotQuantifyTyVars has nothing to error on
+tcDataDefn
+  Solver
+  [[spec] (@k_alU[sk:1]), [->] (@(a_aEJ[sk:1] :: k_alU[sk:1]))]
+---- tcTyClDecl end ---- } Solver
+Starting synonym cycle check [Solver]
+Done synonym cycle check [Solver]
+Starting validity check [Solver]
+Starting validity for tycon Solver
+checkValidTyCon
+  Solver
+  Nothing
+cvtc1 Solver
+cvtc2 Solver
+Done validity for tycon Solver
+Done validity check [Solver]
+---- end tcTyClGroup ---- }
+tcAddTyCons
+  tycons [Solver]
+  implicits []
+tcExtendKindEnvList []
+tc_extend_local_env []
+Adding instances:
+addFamInsts
+tcAddTyCons
+  tycons []
+  implicits []
+tcExtendKindEnvList []
+tc_extend_local_env []
+---- tcTyClGroup ---- {
+Decls for [M]
+tcExtendKindEnv [r2 :-> APromotionErr TyConPE]
+---- kcTyClGroup ---- {
+  module Main
+  type data M :: Solver (u_alV :: k_alW) -> *
+checkInitialKinds { []
+checkInitialKinds done }
+tcExtendKindEnvList []
+pushLevelAndSolveEqualitiesX {
+  Called from pushLevelAndSolveEqualities
+inferInitialKinds { [M]
+newMetaKindVar k_aEL[tau:1]
+newMetaKindVar k_aEM[tau:1]
+bindImplicitTKBndrsX
+  [u_alV, k_alW]
+  [u_alV[tyv:1], k_alW[tyv:1]]
+tc_extend_local_env
+  [(u_alV, Type variable ‘u_alV’ = u_alV[tyv:1] :: k_aEL[tau:1]),
+   (k_alW, Type variable ‘k_alW’ = k_alW[tyv:1] :: k_aEM[tau:1])]
+tcExtendBinderStack [u_alV u_alV[tyv:1], k_alW k_alW[tyv:1]]
+bindExplicitTKBndrs []
+solveEqualities { Called from tcLHsKindSig
+lk1 Solver
+tcInferTyApps {
+  Solver
+  [HsValArg (u_alV :: k_alW)]
+tcInferTyApps (need to instantiate)
+  @k_alU
+  <InScope = {}
+   IdSubst   = []
+   TvSubst   = []
+   CvSubst   = []>
+cloneAnonMetaTyVar k_aEN[tau:1] :: *
+tcInferTyApps (vis normal app)
+  [->] k_alU
+  (u_alV :: k_alW)
+  k_alU
+  <InScope = {k_aEN[tau:1]}
+   IdSubst   = []
+   TvSubst   = [alU :-> k_aEN[tau:1]]
+   CvSubst   = []>
+solveEqualities { Called from tcLHsKindSig
+lk1 k_alW
+tcInferTyApps {
+  k_alW
+  []
+tcInferTyApps } k_alW[tyv:1] :: k_aEM[tau:1]
+checkExpectedKind
+  k_alW[tyv:1]
+  k_aEM[tau:1]
+checkExpectedKindX
+  k_alW
+  act_kind': k_aEM[tau:1]
+  exp_kind: *
+u_tys
+  tclvl 1
+  k_aEM[tau:1] ~ *
+  arising from a type equality k_aEM[tau:1] ~ *
+u_tys
+  tclvl 1
+  * ~ *
+  arising from a kind equality arising from k_aEM[tau:1] ~ *
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aEM[tau:1] :: *
+  * :: *
+  True
+  <*>_N
+writeMetaTyVar k_aEM[tau:1] :: * := *
+u_tys yields no coercion
+checkExpectedKind
+  k_aEM[tau:1]
+  *
+  <*>_N
+newNoTcEvBinds unique = aEO
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+zonkSimples done: {}
+emitFlatConstraints { WC {}
+emitFlatConstraints }
+  simples: {}
+  errs:    {}
+emitDelayedErrors {}
+solveEqualities }
+tcLHsKindSig
+  k_alW
+  k_alW[tyv:1]
+kindGeneralizeNone k_alW[tyv:1]
+checkValidType k_alW[tyv:1] :: *
+done ct k_alW[tyv:1]
+Ambiguity check for k_alW[tyv:1]
+tc_sub_type (general case)
+  ty_actual   = k_alW[tyv:1]
+  ty_expected = k_alW[tyv:1]
+u_tys
+  tclvl 1
+  k_alW[tyv:1] ~ k_alW[tyv:1]
+  arising from a type equality k_alW[tyv:1] ~ k_alW[tyv:1]
+u_tys yields no coercion
+simplifyAmbiguityCheck {
+  type =  k_alW[tyv:1]
+  wanted =  WC {}
+newTcEvBinds unique = aEP
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyAmbiguityCheck }
+reportUnsolved(ambig) {
+reportUnsolved(ambig) }
+Done ambiguity check for k_alW[tyv:1]
+checkValidType done k_alW[tyv:1] :: *
+tcLHsKindSig2 k_alW[tyv:1]
+tc_infer_hs_type:sig
+  u_alV
+  k_alW[tyv:1]
+lk1 u_alV
+tcInferTyApps {
+  u_alV
+  []
+tcInferTyApps } u_alV[tyv:1] :: k_aEL[tau:1]
+checkExpectedKind
+  u_alV[tyv:1]
+  k_aEL[tau:1]
+checkExpectedKindX
+  u_alV
+  act_kind': k_aEL[tau:1]
+  exp_kind: k_alW[tyv:1]
+u_tys
+  tclvl 1
+  k_aEL[tau:1] ~ k_alW[tyv:1]
+  arising from a type equality k_aEL[tau:1] ~ k_alW[tyv:1]
+u_tys
+  tclvl 1
+  * ~ *
+  arising from a kind equality arising from
+    k_aEL[tau:1] ~ k_alW[tyv:1]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aEL[tau:1] :: *
+  k_alW[tyv:1] :: *
+  True
+  <*>_N
+writeMetaTyVar k_aEL[tau:1] :: * := k_alW[tyv:1]
+u_tys yields no coercion
+checkExpectedKind
+  k_aEL[tau:1]
+  k_alW[tyv:1]
+  <k_alW[tyv:1]>_N
+checkExpectedKind
+  u_alV[tyv:1]
+  k_alW[tyv:1]
+checkExpectedKindX
+  u_alV :: k_alW
+  act_kind': k_alW[tyv:1]
+  exp_kind: k_aEN[tau:1]
+u_tys
+  tclvl 1
+  k_alW[tyv:1] ~ k_aEN[tau:1]
+  arising from a type equality k_alW[tyv:1] ~ k_aEN[tau:1]
+u_tys
+  tclvl 1
+  * ~ *
+  arising from a kind equality arising from
+    k_aEN[tau:1] ~ k_alW[tyv:1]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aEN[tau:1] :: *
+  k_alW[tyv:1] :: *
+  True
+  <*>_N
+writeMetaTyVar k_aEN[tau:1] :: * := k_alW[tyv:1]
+u_tys yields no coercion
+checkExpectedKind
+  k_alW[tyv:1]
+  k_aEN[tau:1]
+  <k_alW[tyv:1]>_N
+tcInferTyApps (vis normal app) 2 k_aEN[tau:1]
+tcInferTyApps } Solver u_alV[tyv:1] :: *
+checkExpectedKind
+  Solver u_alV[tyv:1]
+  *
+checkExpectedKindX
+  Solver (u_alV :: k_alW)
+  act_kind': *
+  exp_kind: *
+checkExpectedKind
+  *
+  *
+checkExpectedKindX
+  *
+  act_kind': *
+  exp_kind: *
+lk1 Many
+tcTyVar
+  Many []
+  Nothing
+tcInferTyApps {
+  Many
+  []
+tcInferTyApps } Many :: ghc-prim:GHC.Types.Multiplicity
+checkExpectedKind
+  Many
+  ghc-prim:GHC.Types.Multiplicity
+checkExpectedKindX
+  Many
+  act_kind': ghc-prim:GHC.Types.Multiplicity
+  exp_kind: ghc-prim:GHC.Types.Multiplicity
+checkExpectedKind
+  Solver u_alV[tyv:1] -> *
+  *
+checkExpectedKindX
+  Solver (u_alV :: k_alW) -> *
+  act_kind': *
+  exp_kind: *
+newNoTcEvBinds unique = aEQ
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+zonkSimples done: {}
+emitFlatConstraints { WC {}
+emitFlatConstraints }
+  simples: {}
+  errs:    {}
+emitDelayedErrors {}
+solveEqualities }
+tcLHsKindSig
+  Solver (u_alV :: k_alW) -> *
+  Solver u_alV[tyv:1] -> *
+kindGeneralizeNone Solver u_alV[tyv:1] -> *
+checkValidType Solver u_alV[tyv:1] -> * :: *
+done ct Solver u_alV[tyv:1] -> *
+Ambiguity check for Solver u_alV[tyv:1] -> *
+tc_sub_type (general case)
+  ty_actual   = Solver u_alV[tyv:1] -> *
+  ty_expected = Solver u_alV[tyv:1] -> *
+u_tys
+  tclvl 1
+  Solver u_alV[tyv:1] -> * ~ Solver u_alV[tyv:1] -> *
+  arising from a type equality
+    Solver u_alV[tyv:1] -> * ~ Solver u_alV[tyv:1] -> *
+u_tys
+  tclvl 1
+  Solver u_alV[tyv:1] ~ Solver u_alV[tyv:1]
+  arising from a type equality
+    Solver u_alV[tyv:1] -> * ~ Solver u_alV[tyv:1] -> *
+u_tys
+  tclvl 1
+  k_alW[tyv:1] ~ k_alW[tyv:1]
+  arising from a type equality
+    Solver u_alV[tyv:1] -> * ~ Solver u_alV[tyv:1] -> *
+u_tys yields no coercion
+u_tys
+  tclvl 1
+  u_alV[tyv:1] ~ u_alV[tyv:1]
+  arising from a type equality
+    Solver u_alV[tyv:1] -> * ~ Solver u_alV[tyv:1] -> *
+u_tys yields no coercion
+u_tys yields no coercion
+u_tys
+  tclvl 1
+  * ~ *
+  arising from a type equality
+    Solver u_alV[tyv:1] -> * ~ Solver u_alV[tyv:1] -> *
+u_tys yields no coercion
+u_tys
+  tclvl 1
+  Many ~ Many
+  arising from a type equality
+    Solver u_alV[tyv:1] -> * ~ Solver u_alV[tyv:1] -> *
+u_tys yields no coercion
+u_tys yields no coercion
+simplifyAmbiguityCheck {
+  type =  Solver u_alV[tyv:1] -> *
+  wanted =  WC {}
+newTcEvBinds unique = aER
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyAmbiguityCheck }
+reportUnsolved(ambig) {
+reportUnsolved(ambig) }
+Done ambiguity check for Solver u_alV[tyv:1] -> *
+checkValidType done Solver u_alV[tyv:1] -> * :: *
+tcLHsKindSig2 Solver u_alV[tyv:1] -> *
+kcInferDeclHeader: not-cusk
+  M
+  [u_alV, k_alW]
+  []
+  [u_alV[tyv:1], k_alW[tyv:1]]
+  []
+  Solver u_alV[tyv:1] -> *
+inferInitialKinds done }
+kcTyClGroup: initial kinds M :: Solver u_alV[tyv:1] -> *
+tcExtendKindEnvList
+  [(M, ATcTyCon M[tc] :: Solver u_alV[tyv:1] -> *)]
+kcTyClDecl { M
+tc_extend_local_env
+  [(u_alV, Type variable ‘u_alV’ = u_alV[tyv:1] :: k_aEL[tau:1]),
+   (k_alW, Type variable ‘k_alW’ = k_alW[tyv:1] :: k_aEM[tau:1])]
+tcExtendBinderStack [u_alV u_alV[tyv:1], k_alW k_alW[tyv:1]]
+kcTyClDecl
+  M[tc]
+  []
+  Solver u_alV[tyv:1] -> *
+kcTyClDecl done } M
+newNoTcEvBinds unique = aES
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+pushLevelAndSolveEqualities }
+  Residual: WC {}
+  Level: 1
+Skolemising u_alV[tyv:1] := u_alV[sk:1]
+writeMetaTyVar u_alV[tyv:1] :: k_alW[tyv:1] := u_alV[sk:1]
+Skolemising k_alW[tyv:1] := k_alW[sk:1]
+writeMetaTyVar k_alW[tyv:1] :: * := k_alW[sk:1]
+Skipping swizzleTcTyConBndrs for
+  M[tc] (u_alV[sk:1] :: k_alW[sk:1]) k_alW[sk:1]
+quantifyTyVars has nothing to quantify
+generaliseTcTyCon: pre zonk
+  tycon = M[tc]
+  spec_req_tvs = (u_alV[sk:1] :: k_alW[sk:1]) k_alW[sk:1]
+  tc_res_kind = Solver u_alV[sk:1] -> *
+  dvs1 = DV {dv_kvs = {k_alW[sk:1], u_alV[sk:1]}, dv_tvs = {},
+             dv_cvs = {}}
+  inferred =
+generaliseTcTyCon: post zonk
+  tycon = M[tc]
+  inferred =
+  spec_req_tvs = (u_alV[sk:1] :: k_alW[sk:1]) k_alW[sk:1]
+  sorted_spec_tvs = k_alW[sk:1] (u_alV[sk:1] :: k_alW[sk:1])
+  req_tvs = []
+generaliseTcTyCon done
+  tycon = M[tc]
+  tc_res_kind = *
+  dep_fv_set = {u_alV[sk:1], k_alW[sk:1]}
+  inferred_tcbs = []
+  specified_tcbs = [[spec] (@k_alW[sk:1]),
+                    [spec] (@(u_alV[sk:1] :: k_alW[sk:1]))]
+  required_tcbs = []
+  final_tcbs = [[spec] (@k_alW[sk:1]),
+                [spec] (@(u_alV[sk:1] :: k_alW[sk:1])),
+                [->] (@(a_aEU[sk:1] :: Solver u_alV[sk:1]))]
+---- kcTyClGroup end ---- } M :: forall k (u :: k). Solver u -> *
+tcTyAndCl generalized kinds
+  (M,
+   [[spec] (@k_alW[sk:1]), [spec] (@(u_alV[sk:1] :: k_alW[sk:1])),
+    [->] (@(a_aEU[sk:1] :: Solver u_alV[sk:1]))],
+   *
+   True)
+tcExtendKindEnvList
+  [(M, ATcTyCon M[tc] :: forall k (u :: k). Solver u -> *)]
+---- tcTyClDecl ---- { type data M :: Solver (u_alV :: k_alW) -> *
+bindTyClTyVars
+  M
+  [[spec] (@k_alW[sk:1]), [spec] (@(u_alV[sk:1] :: k_alW[sk:1])),
+   [->] (@(a_aEU[sk:1] :: Solver u_alV[sk:1]))]
+tc_extend_local_env
+  [(k_alW, Type variable ‘k_alW’ = k_alW[sk:1] :: *),
+   (u_alV, Type variable ‘u_alV’ = u_alV[sk:1] :: k_alW[sk:1]),
+   (a_aEU, Type variable ‘a_aEU’ = a_aEU[sk:1] :: Solver u_alV[sk:1])]
+tcExtendBinderStack
+  [k_alW k_alW[sk:1], u_alV u_alV[sk:1], a_aEU a_aEU[sk:1]]
+checkDataKindSig *
+pushLevelAndSolveEqualitiesX {
+  Called from pushLevelAndSolveEqualities
+newNoTcEvBinds unique = aEV
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+pushLevelAndSolveEqualities }
+  Residual: WC {}
+  Level: 1
+doNotQuantifyTyVars has nothing to error on
+tcDataDefn
+  M
+  [[spec] (@k_alW[sk:1]), [spec] (@(u_alV[sk:1] :: k_alW[sk:1])),
+   [->] (@(a_aEU[sk:1] :: Solver u_alV[sk:1]))]
+---- tcTyClDecl end ---- } M
+Starting synonym cycle check [M]
+Done synonym cycle check [M]
+Starting validity check [M]
+Starting validity for tycon M
+checkValidTyCon
+  M
+  Nothing
+cvtc1 M
+cvtc2 M
+Done validity for tycon M
+Done validity check [M]
+---- end tcTyClGroup ---- }
+tcAddTyCons
+  tycons [M]
+  implicits []
+tcExtendKindEnvList []
+tc_extend_local_env []
+Adding instances:
+addFamInsts
+tcAddTyCons
+  tycons []
+  implicits []
+tcExtendKindEnvList []
+tc_extend_local_env []
+---- tcTyClGroup ---- {
+Decls for [OT]
+tcExtendKindEnv
+  [r4 :-> APromotionErr ClassPE, r5 :-> APromotionErr TyConPE]
+---- kcTyClGroup ---- {
+  module Main
+  class OT (b_alR :: Solver (u_alP :: k_alQ)) (a_alS :: Solver b_alR) | b_alR -> a_alS where
+    type Sub a_alS = (o_alT :: M b_alR) | o_alT -> a_alS b_alR
+checkInitialKinds { []
+checkInitialKinds done }
+tcExtendKindEnvList []
+pushLevelAndSolveEqualitiesX {
+  Called from pushLevelAndSolveEqualities
+inferInitialKinds { [OT]
+newMetaKindVar k_aEW[tau:1]
+newMetaKindVar k_aEX[tau:1]
+bindImplicitTKBndrsX
+  [u_alP, k_alQ]
+  [u_alP[tyv:1], k_alQ[tyv:1]]
+tc_extend_local_env
+  [(u_alP, Type variable ‘u_alP’ = u_alP[tyv:1] :: k_aEW[tau:1]),
+   (k_alQ, Type variable ‘k_alQ’ = k_alQ[tyv:1] :: k_aEX[tau:1])]
+tcExtendBinderStack [u_alP u_alP[tyv:1], k_alQ k_alQ[tyv:1]]
+bindExplicitTKBndrs
+  [(b_alR :: Solver (u_alP :: k_alQ)), (a_alS :: Solver b_alR)]
+solveEqualities { Called from tcLHsKindSig
+lk1 Solver
+tcInferTyApps {
+  Solver
+  [HsValArg (u_alP :: k_alQ)]
+tcInferTyApps (need to instantiate)
+  @k_alU
+  <InScope = {}
+   IdSubst   = []
+   TvSubst   = []
+   CvSubst   = []>
+cloneAnonMetaTyVar k_aEY[tau:1] :: *
+tcInferTyApps (vis normal app)
+  [->] k_alU
+  (u_alP :: k_alQ)
+  k_alU
+  <InScope = {k_aEY[tau:1]}
+   IdSubst   = []
+   TvSubst   = [alU :-> k_aEY[tau:1]]
+   CvSubst   = []>
+solveEqualities { Called from tcLHsKindSig
+lk1 k_alQ
+tcInferTyApps {
+  k_alQ
+  []
+tcInferTyApps } k_alQ[tyv:1] :: k_aEX[tau:1]
+checkExpectedKind
+  k_alQ[tyv:1]
+  k_aEX[tau:1]
+checkExpectedKindX
+  k_alQ
+  act_kind': k_aEX[tau:1]
+  exp_kind: *
+u_tys
+  tclvl 1
+  k_aEX[tau:1] ~ *
+  arising from a type equality k_aEX[tau:1] ~ *
+u_tys
+  tclvl 1
+  * ~ *
+  arising from a kind equality arising from k_aEX[tau:1] ~ *
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aEX[tau:1] :: *
+  * :: *
+  True
+  <*>_N
+writeMetaTyVar k_aEX[tau:1] :: * := *
+u_tys yields no coercion
+checkExpectedKind
+  k_aEX[tau:1]
+  *
+  <*>_N
+newNoTcEvBinds unique = aEZ
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+zonkSimples done: {}
+emitFlatConstraints { WC {}
+emitFlatConstraints }
+  simples: {}
+  errs:    {}
+emitDelayedErrors {}
+solveEqualities }
+tcLHsKindSig
+  k_alQ
+  k_alQ[tyv:1]
+kindGeneralizeNone k_alQ[tyv:1]
+checkValidType k_alQ[tyv:1] :: *
+done ct k_alQ[tyv:1]
+Ambiguity check for k_alQ[tyv:1]
+tc_sub_type (general case)
+  ty_actual   = k_alQ[tyv:1]
+  ty_expected = k_alQ[tyv:1]
+u_tys
+  tclvl 1
+  k_alQ[tyv:1] ~ k_alQ[tyv:1]
+  arising from a type equality k_alQ[tyv:1] ~ k_alQ[tyv:1]
+u_tys yields no coercion
+simplifyAmbiguityCheck {
+  type =  k_alQ[tyv:1]
+  wanted =  WC {}
+newTcEvBinds unique = aF0
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyAmbiguityCheck }
+reportUnsolved(ambig) {
+reportUnsolved(ambig) }
+Done ambiguity check for k_alQ[tyv:1]
+checkValidType done k_alQ[tyv:1] :: *
+tcLHsKindSig2 k_alQ[tyv:1]
+tc_infer_hs_type:sig
+  u_alP
+  k_alQ[tyv:1]
+lk1 u_alP
+tcInferTyApps {
+  u_alP
+  []
+tcInferTyApps } u_alP[tyv:1] :: k_aEW[tau:1]
+checkExpectedKind
+  u_alP[tyv:1]
+  k_aEW[tau:1]
+checkExpectedKindX
+  u_alP
+  act_kind': k_aEW[tau:1]
+  exp_kind: k_alQ[tyv:1]
+u_tys
+  tclvl 1
+  k_aEW[tau:1] ~ k_alQ[tyv:1]
+  arising from a type equality k_aEW[tau:1] ~ k_alQ[tyv:1]
+u_tys
+  tclvl 1
+  * ~ *
+  arising from a kind equality arising from
+    k_aEW[tau:1] ~ k_alQ[tyv:1]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aEW[tau:1] :: *
+  k_alQ[tyv:1] :: *
+  True
+  <*>_N
+writeMetaTyVar k_aEW[tau:1] :: * := k_alQ[tyv:1]
+u_tys yields no coercion
+checkExpectedKind
+  k_aEW[tau:1]
+  k_alQ[tyv:1]
+  <k_alQ[tyv:1]>_N
+checkExpectedKind
+  u_alP[tyv:1]
+  k_alQ[tyv:1]
+checkExpectedKindX
+  u_alP :: k_alQ
+  act_kind': k_alQ[tyv:1]
+  exp_kind: k_aEY[tau:1]
+u_tys
+  tclvl 1
+  k_alQ[tyv:1] ~ k_aEY[tau:1]
+  arising from a type equality k_alQ[tyv:1] ~ k_aEY[tau:1]
+u_tys
+  tclvl 1
+  * ~ *
+  arising from a kind equality arising from
+    k_aEY[tau:1] ~ k_alQ[tyv:1]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aEY[tau:1] :: *
+  k_alQ[tyv:1] :: *
+  True
+  <*>_N
+writeMetaTyVar k_aEY[tau:1] :: * := k_alQ[tyv:1]
+u_tys yields no coercion
+checkExpectedKind
+  k_alQ[tyv:1]
+  k_aEY[tau:1]
+  <k_alQ[tyv:1]>_N
+tcInferTyApps (vis normal app) 2 k_aEY[tau:1]
+tcInferTyApps } Solver u_alP[tyv:1] :: *
+checkExpectedKind
+  Solver u_alP[tyv:1]
+  *
+checkExpectedKindX
+  Solver (u_alP :: k_alQ)
+  act_kind': *
+  exp_kind: *
+newNoTcEvBinds unique = aF1
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+zonkSimples done: {}
+emitFlatConstraints { WC {}
+emitFlatConstraints }
+  simples: {}
+  errs:    {}
+emitDelayedErrors {}
+solveEqualities }
+tcLHsKindSig
+  Solver (u_alP :: k_alQ)
+  Solver u_alP[tyv:1]
+kindGeneralizeNone Solver u_alP[tyv:1]
+checkValidType Solver u_alP[tyv:1] :: *
+done ct Solver u_alP[tyv:1]
+Ambiguity check for Solver u_alP[tyv:1]
+tc_sub_type (general case)
+  ty_actual   = Solver u_alP[tyv:1]
+  ty_expected = Solver u_alP[tyv:1]
+u_tys
+  tclvl 1
+  Solver u_alP[tyv:1] ~ Solver u_alP[tyv:1]
+  arising from a type equality
+    Solver u_alP[tyv:1] ~ Solver u_alP[tyv:1]
+u_tys
+  tclvl 1
+  k_alQ[tyv:1] ~ k_alQ[tyv:1]
+  arising from a type equality
+    Solver u_alP[tyv:1] ~ Solver u_alP[tyv:1]
+u_tys yields no coercion
+u_tys
+  tclvl 1
+  u_alP[tyv:1] ~ u_alP[tyv:1]
+  arising from a type equality
+    Solver u_alP[tyv:1] ~ Solver u_alP[tyv:1]
+u_tys yields no coercion
+u_tys yields no coercion
+simplifyAmbiguityCheck {
+  type =  Solver u_alP[tyv:1]
+  wanted =  WC {}
+newTcEvBinds unique = aF2
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyAmbiguityCheck }
+reportUnsolved(ambig) {
+reportUnsolved(ambig) }
+Done ambiguity check for Solver u_alP[tyv:1]
+checkValidType done Solver u_alP[tyv:1] :: *
+tcLHsKindSig2 Solver u_alP[tyv:1]
+tc_extend_local_env
+  [(b_alR,
+    Type variable ‘b_alR’ = b_alR[tyv:1] :: Solver u_alP[tyv:1])]
+tcExtendBinderStack [b_alR b_alR[tyv:1]]
+solveEqualities { Called from tcLHsKindSig
+lk1 Solver
+tcInferTyApps {
+  Solver
+  [HsValArg b_alR]
+tcInferTyApps (need to instantiate)
+  @k_alU
+  <InScope = {}
+   IdSubst   = []
+   TvSubst   = []
+   CvSubst   = []>
+cloneAnonMetaTyVar k_aF3[tau:1] :: *
+tcInferTyApps (vis normal app)
+  [->] k_alU
+  b_alR
+  k_alU
+  <InScope = {k_aF3[tau:1]}
+   IdSubst   = []
+   TvSubst   = [alU :-> k_aF3[tau:1]]
+   CvSubst   = []>
+lk1 b_alR
+tcInferTyApps {
+  b_alR
+  []
+tcInferTyApps } b_alR[tyv:1] :: Solver u_alP[tyv:1]
+checkExpectedKind
+  b_alR[tyv:1]
+  Solver u_alP[tyv:1]
+checkExpectedKindX
+  b_alR
+  act_kind': Solver u_alP[tyv:1]
+  exp_kind: k_aF3[tau:1]
+u_tys
+  tclvl 1
+  Solver u_alP[tyv:1] ~ k_aF3[tau:1]
+  arising from a type equality Solver u_alP[tyv:1] ~ k_aF3[tau:1]
+u_tys
+  tclvl 1
+  * ~ *
+  arising from a kind equality arising from
+    k_aF3[tau:1] ~ Solver u_alP[tyv:1]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aF3[tau:1] :: *
+  Solver u_alP[tyv:1] :: *
+  True
+  <*>_N
+writeMetaTyVar k_aF3[tau:1] :: * := Solver u_alP[tyv:1]
+u_tys yields no coercion
+checkExpectedKind
+  Solver u_alP[tyv:1]
+  k_aF3[tau:1]
+  <Solver u_alP[tyv:1]>_N
+tcInferTyApps (vis normal app) 2 k_aF3[tau:1]
+tcInferTyApps } Solver b_alR[tyv:1] :: *
+checkExpectedKind
+  Solver b_alR[tyv:1]
+  *
+checkExpectedKindX
+  Solver b_alR
+  act_kind': *
+  exp_kind: *
+newNoTcEvBinds unique = aF4
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+zonkSimples done: {}
+emitFlatConstraints { WC {}
+emitFlatConstraints }
+  simples: {}
+  errs:    {}
+emitDelayedErrors {}
+solveEqualities }
+tcLHsKindSig
+  Solver b_alR
+  Solver b_alR[tyv:1]
+kindGeneralizeNone Solver b_alR[tyv:1]
+checkValidType Solver b_alR[tyv:1] :: *
+done ct Solver b_alR[tyv:1]
+Ambiguity check for Solver b_alR[tyv:1]
+tc_sub_type (general case)
+  ty_actual   = Solver b_alR[tyv:1]
+  ty_expected = Solver b_alR[tyv:1]
+u_tys
+  tclvl 1
+  Solver b_alR[tyv:1] ~ Solver b_alR[tyv:1]
+  arising from a type equality
+    Solver b_alR[tyv:1] ~ Solver b_alR[tyv:1]
+u_tys
+  tclvl 1
+  Solver u_alP[tyv:1] ~ Solver u_alP[tyv:1]
+  arising from a type equality
+    Solver b_alR[tyv:1] ~ Solver b_alR[tyv:1]
+u_tys
+  tclvl 1
+  k_alQ[tyv:1] ~ k_alQ[tyv:1]
+  arising from a type equality
+    Solver b_alR[tyv:1] ~ Solver b_alR[tyv:1]
+u_tys yields no coercion
+u_tys
+  tclvl 1
+  u_alP[tyv:1] ~ u_alP[tyv:1]
+  arising from a type equality
+    Solver b_alR[tyv:1] ~ Solver b_alR[tyv:1]
+u_tys yields no coercion
+u_tys yields no coercion
+u_tys
+  tclvl 1
+  b_alR[tyv:1] ~ b_alR[tyv:1]
+  arising from a type equality
+    Solver b_alR[tyv:1] ~ Solver b_alR[tyv:1]
+u_tys yields no coercion
+u_tys yields no coercion
+simplifyAmbiguityCheck {
+  type =  Solver b_alR[tyv:1]
+  wanted =  WC {}
+newTcEvBinds unique = aF5
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyAmbiguityCheck }
+reportUnsolved(ambig) {
+reportUnsolved(ambig) }
+Done ambiguity check for Solver b_alR[tyv:1]
+checkValidType done Solver b_alR[tyv:1] :: *
+tcLHsKindSig2 Solver b_alR[tyv:1]
+tc_extend_local_env
+  [(a_alS,
+    Type variable ‘a_alS’ = a_alS[tyv:1] :: Solver b_alR[tyv:1])]
+tcExtendBinderStack [a_alS a_alS[tyv:1]]
+kcInferDeclHeader: not-cusk
+  OT
+  [u_alP, k_alQ]
+  [(b_alR :: Solver (u_alP :: k_alQ)), (a_alS :: Solver b_alR)]
+  [u_alP[tyv:1], k_alQ[tyv:1]]
+  [b_alR[tyv:1], a_alS[tyv:1]]
+  Solver u_alP[tyv:1] -> Solver b_alR[tyv:1] -> Constraint
+tc_extend_local_env
+  [(b_alR,
+    Type variable ‘b_alR’ = b_alR[tyv:1] :: Solver u_alP[tyv:1]),
+   (a_alS,
+    Type variable ‘a_alS’ = a_alS[tyv:1] :: Solver b_alR[tyv:1])]
+tcExtendBinderStack [b_alR b_alR[tyv:1], a_alS a_alS[tyv:1]]
+bindImplicitTKBndrsX
+  [b_alR]
+  [b_alR[tyv:1]]
+tc_extend_local_env
+  [(b_alR,
+    Type variable ‘b_alR’ = b_alR[tyv:1] :: Solver u_alP[tyv:1])]
+tcExtendBinderStack [b_alR b_alR[tyv:1]]
+bindExplicitTKBndrs [a_alS]
+tc_extend_local_env
+  [(a_alS,
+    Type variable ‘a_alS’ = a_alS[tyv:1] :: Solver b_alR[tyv:1])]
+tcExtendBinderStack [a_alS a_alS[tyv:1]]
+solveEqualities { Called from tcLHsKindSig
+lk1 M
+tcInferTyApps {
+  M
+  [HsValArg b_alR]
+tcInferTyApps (need to instantiate)
+  @k_alW
+  <InScope = {}
+   IdSubst   = []
+   TvSubst   = []
+   CvSubst   = []>
+cloneAnonMetaTyVar k_aF6[tau:1] :: *
+tcInferTyApps (need to instantiate)
+  @u_alV
+  <InScope = {k_aF6[tau:1]}
+   IdSubst   = []
+   TvSubst   = [alW :-> k_aF6[tau:1]]
+   CvSubst   = []>
+cloneAnonMetaTyVar u_aF7[tau:1] :: k_aF6[tau:1]
+tcInferTyApps (vis normal app)
+  [->] Solver u_alV
+  b_alR
+  Solver u_alV
+  <InScope = {k_aF6[tau:1] u_aF7[tau:1]}
+   IdSubst   = []
+   TvSubst   = [alV :-> u_aF7[tau:1], alW :-> k_aF6[tau:1]]
+   CvSubst   = []>
+lk1 b_alR
+tcInferTyApps {
+  b_alR
+  []
+tcInferTyApps } b_alR[tyv:1] :: Solver u_alP[tyv:1]
+checkExpectedKind
+  b_alR[tyv:1]
+  Solver u_alP[tyv:1]
+checkExpectedKindX
+  b_alR
+  act_kind': Solver u_alP[tyv:1]
+  exp_kind: Solver u_aF7[tau:1]
+u_tys
+  tclvl 1
+  Solver u_alP[tyv:1] ~ Solver u_aF7[tau:1]
+  arising from a type equality
+    Solver u_alP[tyv:1] ~ Solver u_aF7[tau:1]
+u_tys
+  tclvl 1
+  k_alQ[tyv:1] ~ k_aF6[tau:1]
+  arising from a type equality
+    Solver u_alP[tyv:1] ~ Solver u_aF7[tau:1]
+u_tys
+  tclvl 1
+  * ~ *
+  arising from a kind equality arising from
+    k_aF6[tau:1] ~ k_alQ[tyv:1]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aF6[tau:1] :: *
+  k_alQ[tyv:1] :: *
+  True
+  <*>_N
+writeMetaTyVar k_aF6[tau:1] :: * := k_alQ[tyv:1]
+u_tys yields no coercion
+u_tys
+  tclvl 1
+  u_alP[tyv:1] ~ u_aF7[tau:1]
+  arising from a type equality
+    Solver u_alP[tyv:1] ~ Solver u_aF7[tau:1]
+u_tys
+  tclvl 1
+  k_alQ[tyv:1] ~ k_alQ[tyv:1]
+  arising from a kind equality arising from
+    u_aF7[tau:1] ~ u_alP[tyv:1]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  u_aF7[tau:1] :: k_alQ[tyv:1]
+  u_alP[tyv:1] :: k_alQ[tyv:1]
+  True
+  <k_alQ[tyv:1]>_N
+writeMetaTyVar u_aF7[tau:1] :: k_alQ[tyv:1] := u_alP[tyv:1]
+u_tys yields no coercion
+u_tys yields no coercion
+checkExpectedKind
+  Solver u_alP[tyv:1]
+  Solver u_aF7[tau:1]
+  <Solver u_alP[tyv:1]>_N
+tcInferTyApps (vis normal app) 2 Solver u_aF7[tau:1]
+tcInferTyApps } M b_alR[tyv:1] :: *
+checkExpectedKind
+  M b_alR[tyv:1]
+  *
+checkExpectedKindX
+  M b_alR
+  act_kind': *
+  exp_kind: *
+newNoTcEvBinds unique = aF8
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+zonkSimples done: {}
+emitFlatConstraints { WC {}
+emitFlatConstraints }
+  simples: {}
+  errs:    {}
+emitDelayedErrors {}
+solveEqualities }
+tcLHsKindSig
+  M b_alR
+  M b_alR[tyv:1]
+kindGeneralizeNone M b_alR[tyv:1]
+checkValidType M b_alR[tyv:1] :: *
+done ct M b_alR[tyv:1]
+Ambiguity check for M b_alR[tyv:1]
+tc_sub_type (general case)
+  ty_actual   = M b_alR[tyv:1]
+  ty_expected = M b_alR[tyv:1]
+u_tys
+  tclvl 1
+  M b_alR[tyv:1] ~ M b_alR[tyv:1]
+  arising from a type equality M b_alR[tyv:1] ~ M b_alR[tyv:1]
+u_tys
+  tclvl 1
+  k_alQ[tyv:1] ~ k_alQ[tyv:1]
+  arising from a type equality M b_alR[tyv:1] ~ M b_alR[tyv:1]
+u_tys yields no coercion
+u_tys
+  tclvl 1
+  u_alP[tyv:1] ~ u_alP[tyv:1]
+  arising from a type equality M b_alR[tyv:1] ~ M b_alR[tyv:1]
+u_tys yields no coercion
+u_tys
+  tclvl 1
+  b_alR[tyv:1] ~ b_alR[tyv:1]
+  arising from a type equality M b_alR[tyv:1] ~ M b_alR[tyv:1]
+u_tys yields no coercion
+u_tys yields no coercion
+simplifyAmbiguityCheck {
+  type =  M b_alR[tyv:1]
+  wanted =  WC {}
+newTcEvBinds unique = aF9
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyAmbiguityCheck }
+reportUnsolved(ambig) {
+reportUnsolved(ambig) }
+Done ambiguity check for M b_alR[tyv:1]
+checkValidType done M b_alR[tyv:1] :: *
+tcLHsKindSig2 M b_alR[tyv:1]
+kcInferDeclHeader: not-cusk
+  Sub
+  [b_alR]
+  [a_alS]
+  [b_alR[tyv:1]]
+  [a_alS[tyv:1]]
+  Solver b_alR[tyv:1] -> M b_alR[tyv:1]
+inferInitialKinds done }
+kcTyClGroup: initial kinds
+  OT :: Solver u_alP[tyv:1] -> Solver b_alR[tyv:1] -> Constraint
+  Sub :: Solver b_alR[tyv:1] -> M b_alR[tyv:1]
+tcExtendKindEnvList
+  [(OT,
+    ATcTyCon OT[tc] :: Solver u_alP[tyv:1]
+                       -> Solver b_alR[tyv:1] -> Constraint),
+   (Sub, ATcTyCon Sub[tc] :: Solver b_alR[tyv:1] -> M b_alR[tyv:1])]
+kcTyClDecl { OT
+tc_extend_local_env
+  [(u_alP, Type variable ‘u_alP’ = u_alP[tyv:1] :: k_aEW[tau:1]),
+   (k_alQ, Type variable ‘k_alQ’ = k_alQ[tyv:1] :: k_aEX[tau:1]),
+   (b_alR,
+    Type variable ‘b_alR’ = b_alR[tyv:1] :: Solver u_alP[tyv:1]),
+   (a_alS,
+    Type variable ‘a_alS’ = a_alS[tyv:1] :: Solver b_alR[tyv:1])]
+tcExtendBinderStack
+  [u_alP u_alP[tyv:1], k_alQ k_alQ[tyv:1], b_alR b_alR[tyv:1],
+   a_alS a_alS[tyv:1]]
+kcTyClDecl done } OT
+newNoTcEvBinds unique = aFa
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+pushLevelAndSolveEqualities }
+  Residual: WC {}
+  Level: 1
+Skolemising u_alP[tyv:1] := u_alP[sk:1]
+writeMetaTyVar u_alP[tyv:1] :: k_alQ[tyv:1] := u_alP[sk:1]
+Skolemising k_alQ[tyv:1] := k_alQ[sk:1]
+writeMetaTyVar k_alQ[tyv:1] :: * := k_alQ[sk:1]
+Skolemising b_alR[tyv:1] := b_alR[sk:1]
+writeMetaTyVar b_alR[tyv:1] :: Solver u_alP[sk:1] := b_alR[sk:1]
+Skolemising a_alS[tyv:1] := a_alS[sk:1]
+writeMetaTyVar a_alS[tyv:1] :: Solver b_alR[sk:1] := a_alS[sk:1]
+Skipping swizzleTcTyConBndrs for
+  OT[tc] (u_alP[sk:1] :: k_alQ[sk:1])
+         k_alQ[sk:1]
+         (b_alR[sk:1] :: Solver u_alP[sk:1])
+         (a_alS[sk:1] :: Solver b_alR[sk:1])
+  Sub[tc] (b_alR[sk:1] :: Solver u_alP[sk:1])
+          (a_alS[sk:1] :: Solver b_alR[sk:1])
+quantifyTyVars has nothing to quantify
+generaliseTcTyCon: pre zonk
+  tycon = OT[tc]
+  spec_req_tvs = (u_alP[sk:1] :: k_alQ[sk:1])
+                 k_alQ[sk:1]
+                 (b_alR[sk:1] :: Solver u_alP[sk:1])
+                 (a_alS[sk:1] :: Solver b_alR[sk:1])
+  tc_res_kind = Constraint
+  dvs1 = DV {dv_kvs = {k_alQ[sk:1], u_alP[sk:1], b_alR[sk:1]},
+             dv_tvs = {}, dv_cvs = {}}
+  inferred =
+generaliseTcTyCon: post zonk
+  tycon = OT[tc]
+  inferred =
+  spec_req_tvs = (u_alP[sk:1] :: k_alQ[sk:1])
+                 k_alQ[sk:1]
+                 (b_alR[sk:1] :: Solver u_alP[sk:1])
+                 (a_alS[sk:1] :: Solver b_alR[sk:1])
+  sorted_spec_tvs = k_alQ[sk:1] (u_alP[sk:1] :: k_alQ[sk:1])
+  req_tvs = [b_alR[sk:1], a_alS[sk:1]]
+generaliseTcTyCon done
+  tycon = OT[tc]
+  tc_res_kind = Constraint
+  dep_fv_set = {u_alP[sk:1], k_alQ[sk:1], b_alR[sk:1]}
+  inferred_tcbs = []
+  specified_tcbs = [[spec] (@k_alQ[sk:1]),
+                    [spec] (@(u_alP[sk:1] :: k_alQ[sk:1]))]
+  required_tcbs = [[req] (@(b_alR[sk:1] :: Solver u_alP[sk:1])),
+                   [->] (@(a_alS[sk:1] :: Solver b_alR[sk:1]))]
+  final_tcbs = [[spec] (@k_alQ[sk:1]),
+                [spec] (@(u_alP[sk:1] :: k_alQ[sk:1])),
+                [req] (@(b_alR[sk:1] :: Solver u_alP[sk:1])),
+                [->] (@(a_alS[sk:1] :: Solver b_alR[sk:1]))]
+quantifyTyVars {
+  ns_strat = DefaultOnlyNonStandardTyVars
+  dvs = DV {dv_kvs = {k_alQ[sk:1], u_alP[sk:1]}, dv_tvs = {},
+            dv_cvs = {}}
+quantifyTyVars }
+  undefaulted: k_alQ[sk:1] (u_alP[sk:1] :: k_alQ[sk:1])
+  final_qtvs: k_alQ[sk:1] (u_alP[sk:1] :: k_alQ[sk:1])
+generaliseTcTyCon: pre zonk
+  tycon = Sub[tc]
+  spec_req_tvs = (b_alR[sk:1] :: Solver u_alP[sk:1])
+                 (a_alS[sk:1] :: Solver b_alR[sk:1])
+  tc_res_kind = M b_alR[sk:1]
+  dvs1 = DV {dv_kvs = {k_alQ[sk:1], u_alP[sk:1], b_alR[sk:1]},
+             dv_tvs = {}, dv_cvs = {}}
+  inferred = k_alQ[sk:1] (u_alP[sk:1] :: k_alQ[sk:1])
+generaliseTcTyCon: post zonk
+  tycon = Sub[tc]
+  inferred = k_alQ[sk:1] (u_alP[sk:1] :: k_alQ[sk:1])
+  spec_req_tvs = (b_alR[sk:1] :: Solver u_alP[sk:1])
+                 (a_alS[sk:1] :: Solver b_alR[sk:1])
+  sorted_spec_tvs = (b_alR[sk:1] :: Solver u_alP[sk:1])
+  req_tvs = [a_alS[sk:1]]
+generaliseTcTyCon done
+  tycon = Sub[tc]
+  tc_res_kind = M b_alR[sk:1]
+  dep_fv_set = {u_alP[sk:1], k_alQ[sk:1], b_alR[sk:1]}
+  inferred_tcbs = [[infrd] (@k_alQ[sk:1]),
+                   [infrd] (@(u_alP[sk:1] :: k_alQ[sk:1]))]
+  specified_tcbs = [[spec] (@(b_alR[sk:1] :: Solver u_alP[sk:1]))]
+  required_tcbs = [[->] (@(a_alS[sk:1] :: Solver b_alR[sk:1]))]
+  final_tcbs = [[infrd] (@k_alQ[sk:1]),
+                [infrd] (@(u_alP[sk:1] :: k_alQ[sk:1])),
+                [spec] (@(b_alR[sk:1] :: Solver u_alP[sk:1])),
+                [->] (@(a_alS[sk:1] :: Solver b_alR[sk:1]))]
+---- kcTyClGroup end ---- }
+  OT :: forall k (u :: k).
+        forall (b :: Solver u) -> Solver b -> Constraint
+  Sub :: forall {k} {u :: k} (b :: Solver u). Solver b -> M b
+tcTyAndCl generalized kinds
+  (OT,
+   [[spec] (@k_alQ[sk:1]), [spec] (@(u_alP[sk:1] :: k_alQ[sk:1])),
+    [req] (@(b_alR[sk:1] :: Solver u_alP[sk:1])),
+    [->] (@(a_alS[sk:1] :: Solver b_alR[sk:1]))],
+   Constraint
+   True)
+  (Sub,
+   [[infrd] (@k_alQ[sk:1]), [infrd] (@(u_alP[sk:1] :: k_alQ[sk:1])),
+    [spec] (@(b_alR[sk:1] :: Solver u_alP[sk:1])),
+    [->] (@(a_alS[sk:1] :: Solver b_alR[sk:1]))],
+   M b_alR[sk:1]
+   True)
+tcExtendKindEnvList
+  [(OT,
+    ATcTyCon OT[tc] :: forall k (u :: k).
+                       forall (b :: Solver u) -> Solver b -> Constraint),
+   (Sub,
+    ATcTyCon Sub[tc] :: forall {k} {u :: k} (b :: Solver u).
+                        Solver b -> M b)]
+---- tcTyClDecl ---- {
+  class OT (b_alR :: Solver (u_alP :: k_alQ)) (a_alS :: Solver b_alR) | b_alR -> a_alS where
+    type Sub a_alS = (o_alT :: M b_alR) | o_alT -> a_alS b_alR
+bindTyClTyVars
+  OT
+  [[spec] (@k_alQ[sk:1]), [spec] (@(u_alP[sk:1] :: k_alQ[sk:1])),
+   [req] (@(b_alR[sk:1] :: Solver u_alP[sk:1])),
+   [->] (@(a_alS[sk:1] :: Solver b_alR[sk:1]))]
+tc_extend_local_env
+  [(k_alQ, Type variable ‘k_alQ’ = k_alQ[sk:1] :: *),
+   (u_alP, Type variable ‘u_alP’ = u_alP[sk:1] :: k_alQ[sk:1]),
+   (b_alR, Type variable ‘b_alR’ = b_alR[sk:1] :: Solver u_alP[sk:1]),
+   (a_alS, Type variable ‘a_alS’ = a_alS[sk:1] :: Solver b_alR[sk:1])]
+tcExtendBinderStack
+  [k_alQ k_alQ[sk:1], u_alP u_alP[sk:1], b_alR b_alR[sk:1],
+   a_alS a_alS[sk:1]]
+tcClassDecl 1
+  OT
+  [[spec] (@k_alQ[sk:1]), [spec] (@(u_alP[sk:1] :: k_alQ[sk:1])),
+   [req] (@(b_alR[sk:1] :: Solver u_alP[sk:1])),
+   [->] (@(a_alS[sk:1] :: Solver b_alR[sk:1]))]
+pushLevelAndSolveEqualitiesX {
+  Called from pushLevelAndSolveEqualities
+tcClassSigs 1 OT
+tcClassSigs 2 OT
+bindTyClTyVars
+  Sub
+  [[infrd] (@k_alQ[sk:1]), [infrd] (@(u_alP[sk:1] :: k_alQ[sk:1])),
+   [spec] (@(b_alR[sk:1] :: Solver u_alP[sk:1])),
+   [->] (@(a_alS[sk:1] :: Solver b_alR[sk:1]))]
+tc_extend_local_env
+  [(k_alQ, Type variable ‘k_alQ’ = k_alQ[sk:1] :: *),
+   (u_alP, Type variable ‘u_alP’ = u_alP[sk:1] :: k_alQ[sk:1]),
+   (b_alR, Type variable ‘b_alR’ = b_alR[sk:1] :: Solver u_alP[sk:1]),
+   (a_alS, Type variable ‘a_alS’ = a_alS[sk:1] :: Solver b_alR[sk:1])]
+tcExtendBinderStack
+  [k_alQ k_alQ[sk:1], u_alP u_alP[sk:1], b_alR b_alR[sk:1],
+   a_alS a_alS[sk:1]]
+tcFamDecl1 open type family: Sub
+tcInjectivity
+  [k_alQ, u_alP, b_alR, a_alS]
+  [a_alS, b_alR]
+  [a_alS[sk:1], b_alR[sk:1]]
+  {u_alP[sk:1], k_alQ[sk:1], b_alR[sk:1], a_alS[sk:1]}
+  [True, True, True, True]
+newNoTcEvBinds unique = aFd
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+pushLevelAndSolveEqualities }
+  Residual: WC {}
+  Level: 1
+doNotQuantifyTyVars has nothing to error on
+tcClassDecl
+  [b_alR -> a_alS]
+  [[spec] (@k_alQ), [spec] (@(u_alP :: k_alQ)),
+   [req] (@(b_alR :: Solver u_alP)), [->] (@(a_alS :: Solver b_alR))]
+  [([b_alR[sk:1]], [a_alS[sk:1]])]
+---- tcTyClDecl end ---- } OT
+Starting synonym cycle check [OT]
+Done synonym cycle check [OT]
+Starting validity check [OT]
+Starting validity for tycon OT
+checkValidTyCon
+  OT
+  Just OT
+ati
+  Sub
+  [k_alQ, u_alP, b_alR, a_alS]
+  [k_alQ, u_alP, b_alR, a_alS]
+Done validity for tycon OT
+Done validity check [OT]
+---- end tcTyClGroup ---- }
+tcAddTyCons
+  tycons [OT]
+  implicits [Type constructor ‘Sub’, Data constructor ‘Main.C:OT’,
+             Identifier ‘Main.C:OT’]
+tcExtendKindEnvList []
+tc_extend_local_env []
+Adding instances:
+addFamInsts
+tcAddTyCons
+  tycons []
+  implicits []
+tcExtendKindEnvList []
+tc_extend_local_env []
+---- tcTyClGroup ---- {
+Decls for [O]
+tcExtendKindEnv [r3 :-> APromotionErr ClassPE]
+tc_top_lhs_type { forall (k_alY :: Solver u_alX) -> Constraint
+pushLevelAndSolveEqualitiesX { Called from tc_top_lhs_type
+pushLevelAndCaptureConstraints { 2
+newMetaKindVar k_aFi[tau:2]
+bindImplicitTKBndrsX
+  [u_alX]
+  [u_alX[sk:2]]
+tc_extend_local_env
+  [(u_alX, Type variable ‘u_alX’ = u_alX[sk:2] :: k_aFi[tau:2])]
+tcExtendBinderStack [u_alX u_alX[sk:2]]
+newAnonMetaTyVar t_aFj[tau:2]
+pushLevelAndCaptureConstraints { 3
+bindExplicitTKBndrs [(k_alY :: Solver u_alX)]
+solveEqualities { Called from tcLHsKindSig
+lk1 Solver
+tcInferTyApps {
+  Solver
+  [HsValArg u_alX]
+tcInferTyApps (need to instantiate)
+  @k_alU
+  <InScope = {}
+   IdSubst   = []
+   TvSubst   = []
+   CvSubst   = []>
+cloneAnonMetaTyVar k_aFl[tau:3] :: *
+tcInferTyApps (vis normal app)
+  [->] k_alU
+  u_alX
+  k_alU
+  <InScope = {k_aFl[tau:3]}
+   IdSubst   = []
+   TvSubst   = [alU :-> k_aFl[tau:3]]
+   CvSubst   = []>
+lk1 u_alX
+tcInferTyApps {
+  u_alX
+  []
+tcInferTyApps } u_alX[sk:2] :: k_aFi[tau:2]
+checkExpectedKind
+  u_alX[sk:2]
+  k_aFi[tau:2]
+checkExpectedKindX
+  u_alX
+  act_kind': k_aFi[tau:2]
+  exp_kind: k_aFl[tau:3]
+u_tys
+  tclvl 3
+  k_aFi[tau:2] ~ k_aFl[tau:3]
+  arising from a type equality k_aFi[tau:2] ~ k_aFl[tau:3]
+u_tys
+  tclvl 3
+  * ~ *
+  arising from a kind equality arising from
+    k_aFl[tau:3] ~ k_aFi[tau:2]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aFl[tau:3] :: *
+  k_aFi[tau:2] :: *
+  True
+  <*>_N
+writeMetaTyVar k_aFl[tau:3] :: * := k_aFi[tau:2]
+u_tys yields no coercion
+checkExpectedKind
+  k_aFi[tau:2]
+  k_aFl[tau:3]
+  <k_aFi[tau:2]>_N
+tcInferTyApps (vis normal app) 2 k_aFl[tau:3]
+tcInferTyApps } Solver u_alX[sk:2] :: *
+checkExpectedKind
+  Solver u_alX[sk:2]
+  *
+checkExpectedKindX
+  Solver u_alX
+  act_kind': *
+  exp_kind: *
+newNoTcEvBinds unique = aFm
+solveWanteds {
+  Level = 3
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 3
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+zonkSimples done: {}
+emitFlatConstraints { WC {}
+emitFlatConstraints }
+  simples: {}
+  errs:    {}
+emitDelayedErrors {}
+solveEqualities }
+tcLHsKindSig
+  Solver u_alX
+  Solver u_alX[sk:2]
+kindGeneralizeNone Solver u_alX[sk:2]
+checkValidType Solver u_alX[sk:2] :: *
+done ct Solver u_alX[sk:2]
+Ambiguity check for Solver u_alX[sk:2]
+tc_sub_type (general case)
+  ty_actual   = Solver u_alX[sk:2]
+  ty_expected = Solver u_alX[sk:2]
+u_tys
+  tclvl 3
+  Solver u_alX[sk:2] ~ Solver u_alX[sk:2]
+  arising from a type equality
+    Solver u_alX[sk:2] ~ Solver u_alX[sk:2]
+u_tys
+  tclvl 3
+  k_aFi[tau:2] ~ k_aFi[tau:2]
+  arising from a type equality
+    Solver u_alX[sk:2] ~ Solver u_alX[sk:2]
+u_tys yields no coercion
+u_tys
+  tclvl 3
+  u_alX[sk:2] ~ u_alX[sk:2]
+  arising from a type equality
+    Solver u_alX[sk:2] ~ Solver u_alX[sk:2]
+u_tys yields no coercion
+u_tys yields no coercion
+simplifyAmbiguityCheck {
+  type =  Solver u_alX[sk:2]
+  wanted =  WC {}
+newTcEvBinds unique = aFn
+solveWanteds {
+  Level = 3
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 3
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyAmbiguityCheck }
+reportUnsolved(ambig) {
+reportUnsolved(ambig) }
+Done ambiguity check for Solver u_alX[sk:2]
+checkValidType done Solver u_alX[sk:2] :: *
+tcLHsKindSig2 Solver u_alX[sk:2]
+tc_extend_local_env
+  [(k_alY,
+    Type variable ‘k_alY’ = k_alY[sk:3] :: Solver u_alX[sk:2])]
+tcExtendBinderStack [k_alY k_alY[sk:3]]
+lk1 Constraint
+tcInferTyApps {
+  Constraint
+  []
+tcInferTyApps } Constraint :: *
+checkExpectedKind
+  Constraint
+  *
+checkExpectedKindX
+  Constraint
+  act_kind': *
+  exp_kind: TYPE t_aFj[tau:2]
+u_tys
+  tclvl 3
+  * ~ TYPE t_aFj[tau:2]
+  arising from a type equality * ~ TYPE t_aFj[tau:2]
+u_tys
+  tclvl 3
+  ghc-prim:GHC.Types.LiftedRep ~ t_aFj[tau:2]
+  arising from a type equality * ~ TYPE t_aFj[tau:2]
+uUnfilledVar2 not ok
+  t_aFj[tau:2]
+  ghc-prim:GHC.Types.LiftedRep
+New coercion hole:
+  co_aFo :: ghc-prim:GHC.Types.LiftedRep
+            ghc-prim:GHC.Prim.~# t_aFj[tau:2]
+utype_defer
+  ghc-prim:GHC.Types.LiftedRep
+  t_aFj[tau:2]
+  arising from a type equality * ~ TYPE t_aFj[tau:2]
+  In a standalone kind signature for ‘O’:
+    forall (k_alY :: Solver u_alX) -> Constraint
+utype_defer2 {co_aFo}
+u_tys yields coercion: {co_aFo}
+u_tys yields coercion: (TYPE {co_aFo})_N
+checkExpectedKind
+  *
+  TYPE t_aFj[tau:2]
+  (TYPE {co_aFo})_N
+pushLevelAndCaptureConstraints } 3
+newNoTcEvBinds unique = aFq
+pushLevelAndCaptureConstraints } 2
+newNoTcEvBinds unique = aFr
+newNoTcEvBinds unique = aFs
+solveWanteds {
+  Level = 1
+  WC {wc_impl =
+        Implic {
+          TcLevel = 2
+          Skolems = (u_alX[sk:2] :: k_aFi[tau:2])
+          Given-eqs = NoGivenEqs
+          Status = Unsolved
+          Given =
+          Wanted =
+            WC {wc_impl =
+                  Implic {
+                    TcLevel = 3
+                    Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+                    Given-eqs = NoGivenEqs
+                    Status = Unsolved
+                    Given =
+                    Wanted =
+                      WC {wc_simple =
+                            [W] hole{co_aFo} {0}:: ghc-prim:GHC.Types.LiftedRep
+                                                   ghc-prim:GHC.Prim.~# t_aFj[tau:2] (CNonCanonical)}
+                    Binds = CoEvBindsVar<aFq>
+                    an explicit forall (k_alY :: Solver u_alX) }}
+          Binds = CoEvBindsVar<aFr>
+          a standalone kind signature for ‘O’ }}
+simplify_loop: wc =
+  WC {wc_impl =
+        Implic {
+          TcLevel = 2
+          Skolems = (u_alX[sk:2] :: k_aFi[tau:2])
+          Given-eqs = NoGivenEqs
+          Status = Unsolved
+          Given =
+          Wanted =
+            WC {wc_impl =
+                  Implic {
+                    TcLevel = 3
+                    Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+                    Given-eqs = NoGivenEqs
+                    Status = Unsolved
+                    Given =
+                    Wanted =
+                      WC {wc_simple =
+                            [W] hole{co_aFo} {0}:: ghc-prim:GHC.Types.LiftedRep
+                                                   ghc-prim:GHC.Prim.~# t_aFj[tau:2] (CNonCanonical)}
+                    Binds = CoEvBindsVar<aFq>
+                    an explicit forall (k_alY :: Solver u_alX) }}
+          Binds = CoEvBindsVar<aFr>
+          a standalone kind signature for ‘O’ }}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+solveNestedImplications starting {
+solveImplication {
+  Implic {
+    TcLevel = 2
+    Skolems = (u_alX[sk:2] :: k_aFi[tau:2])
+    Given-eqs = NoGivenEqs
+    Status = Unsolved
+    Given =
+    Wanted =
+      WC {wc_impl =
+            Implic {
+              TcLevel = 3
+              Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+              Given-eqs = NoGivenEqs
+              Status = Unsolved
+              Given =
+              Wanted =
+                WC {wc_simple =
+                      [W] hole{co_aFo} {0}:: ghc-prim:GHC.Types.LiftedRep
+                                             ghc-prim:GHC.Prim.~# t_aFj[tau:2] (CNonCanonical)}
+              Binds = CoEvBindsVar<aFq>
+              an explicit forall (k_alY :: Solver u_alX) }}
+    Binds = CoEvBindsVar<aFr>
+    a standalone kind signature for ‘O’ }
+  Inerts {Innermost given equalities = 0
+          Given eqs at this level = False}
+solveWanteds {
+  Level = 2
+  WC {wc_impl =
+        Implic {
+          TcLevel = 3
+          Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+          Given-eqs = NoGivenEqs
+          Status = Unsolved
+          Given =
+          Wanted =
+            WC {wc_simple =
+                  [W] hole{co_aFo} {0}:: ghc-prim:GHC.Types.LiftedRep
+                                         ghc-prim:GHC.Prim.~# t_aFj[tau:2] (CNonCanonical)}
+          Binds = CoEvBindsVar<aFq>
+          an explicit forall (k_alY :: Solver u_alX) }}
+simplify_loop: wc =
+  WC {wc_impl =
+        Implic {
+          TcLevel = 3
+          Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+          Given-eqs = NoGivenEqs
+          Status = Unsolved
+          Given =
+          Wanted =
+            WC {wc_simple =
+                  [W] hole{co_aFo} {0}:: ghc-prim:GHC.Types.LiftedRep
+                                         ghc-prim:GHC.Prim.~# t_aFj[tau:2] (CNonCanonical)}
+          Binds = CoEvBindsVar<aFq>
+          an explicit forall (k_alY :: Solver u_alX) }}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+solveNestedImplications starting {
+solveImplication {
+  Implic {
+    TcLevel = 3
+    Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+    Given-eqs = NoGivenEqs
+    Status = Unsolved
+    Given =
+    Wanted =
+      WC {wc_simple =
+            [W] hole{co_aFo} {0}:: ghc-prim:GHC.Types.LiftedRep
+                                   ghc-prim:GHC.Prim.~# t_aFj[tau:2] (CNonCanonical)}
+    Binds = CoEvBindsVar<aFq>
+    an explicit forall (k_alY :: Solver u_alX) }
+  Inerts {Innermost given equalities = 0
+          Given eqs at this level = False}
+solveWanteds {
+  Level = 3
+  WC {wc_simple =
+        [W] hole{co_aFo} {0}:: ghc-prim:GHC.Types.LiftedRep
+                               ghc-prim:GHC.Prim.~# t_aFj[tau:2] (CNonCanonical)}
+simplify_loop: wc =
+  WC {wc_simple =
+        [W] hole{co_aFo} {0}:: ghc-prim:GHC.Types.LiftedRep
+                               ghc-prim:GHC.Prim.~# t_aFj[tau:2] (CNonCanonical)}
+solveSimpleWanteds {
+  {[W] hole{co_aFo} {0}:: ghc-prim:GHC.Types.LiftedRep
+                          ghc-prim:GHC.Prim.~# t_aFj[tau:2] (CNonCanonical)}
+----------------------------- 
+Start solver pipeline {
+  tclevel = 3
+  work item = [W] hole{co_aFo} {0}:: ghc-prim:GHC.Types.LiftedRep
+                                     ghc-prim:GHC.Prim.~# t_aFj[tau:2] (CNonCanonical)
+  inerts = {Innermost given equalities = 0
+            Given eqs at this level = False}
+  rest of worklist = WL {}
+runStage canonicalization {
+  workitem   =  [W] hole{co_aFo} {0}:: ghc-prim:GHC.Types.LiftedRep
+                                       ghc-prim:GHC.Prim.~# t_aFj[tau:2] (CNonCanonical)
+canEvNC:eq
+  ghc-prim:GHC.Types.LiftedRep
+  t_aFj[tau:2]
+can_eq_nc
+  False
+  [W] hole{co_aFo} {0}:: ghc-prim:GHC.Types.LiftedRep
+                         ghc-prim:GHC.Prim.~# t_aFj[tau:2]
+  nominal equality
+  ghc-prim:GHC.Types.LiftedRep
+  ghc-prim:GHC.Types.LiftedRep
+  t_aFj[tau:2]
+  t_aFj[tau:2]
+rewrite { ghc-prim:GHC.Types.LiftedRep
+rewrite } ghc-prim:GHC.Types.LiftedRep
+rewrite { t_aFj[tau:2]
+Unfilled tyvar (t_aFj[tau:2] :: ghc-prim:GHC.Types.RuntimeRep)
+rewrite } t_aFj[tau:2]
+New coercion hole:
+  co_aFt :: t_aFj[tau:2]
+            ghc-prim:GHC.Prim.~# ghc-prim:GHC.Types.LiftedRep
+Emitting new coercion hole
+  {co_aFt} :: t_aFj[tau:2]
+              ghc-prim:GHC.Prim.~# ghc-prim:GHC.Types.LiftedRep
+Filling coercion hole co_aFo := Sym {co_aFt}
+rewriteEqEvidence
+  [W] hole{co_aFo} {0}:: ghc-prim:GHC.Types.LiftedRep
+                         ghc-prim:GHC.Prim.~# t_aFj[tau:2]
+  t_aFj[tau:2]
+  ghc-prim:GHC.Types.LiftedRep
+  Sym {co_aFt}
+  {}
+CEqCan
+  t_aFj[tau:2]
+  ghc-prim:GHC.Types.LiftedRep
+end stage canonicalization }
+runStage interact with inerts {
+  workitem   =  [W] hole{co_aFt} {1}:: t_aFj[tau:2]
+                                       ghc-prim:GHC.Prim.~# ghc-prim:GHC.Types.LiftedRep (CEqCan)
+tryToSolveByUnification
+  t_aFj[tau:2] ~ ghc-prim:GHC.Types.LiftedRep
+  TouchableOuterLevel(2 [])
+Sneaky unification:
+  Unifies: t_aFj[tau:2] := ghc-prim:GHC.Types.LiftedRep
+  Coercion: t_aFj[tau:2] ~ ghc-prim:GHC.Types.LiftedRep
+  Left Kind is: ghc-prim:GHC.Types.RuntimeRep
+  Right Kind is: ghc-prim:GHC.Types.RuntimeRep
+unifyTyVar t_aFj[tau:2] := ghc-prim:GHC.Types.LiftedRep
+writeMetaTyVar
+  t_aFj[tau:2] :: ghc-prim:GHC.Types.RuntimeRep := ghc-prim:GHC.Types.LiftedRep
+Filling coercion hole co_aFt := <ghc-prim:GHC.Types.LiftedRep>_N
+end stage interact with inerts }
+End solver pipeline (discharged) }
+getUnsolvedInerts
+   tv eqs = {}
+  fun eqs = {}
+  others = {}
+  implics = {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 3
+  unif_lvl: Just 2
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+getHasGivenEqs
+  given_eqs: False
+  ge_lvl: 0
+  ambient level: 3
+  Inerts: {Innermost given equalities = 0
+           Given eqs at this level = False}
+  Insols: {}
+solveImplication 2
+  {}
+  WC {}
+setImplicationStatus(all-solved) {
+  Implic {
+    TcLevel = 3
+    Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+    Given-eqs = NoGivenEqs
+    Status = Unsolved
+    Given =
+    Wanted = WC {}
+    Binds = CoEvBindsVar<aFq>
+    an explicit forall (k_alY :: Solver u_alX) }
+neededEvVars
+  old_needs: {}
+  seeds3: {co_aFt}
+  tcvs: {co_aFt}
+  ev_binds: []
+  live_ev_binds: []
+setImplicationStatus(all-solved) }
+  discard: False
+  new_implic: Implic {
+                TcLevel = 3
+                Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+                Given-eqs = NoGivenEqs
+                Status = Solved {Dead givens = []}
+                Given =
+                Wanted = WC {}
+                Binds = CoEvBindsVar<aFq>
+                an explicit forall (k_alY :: Solver u_alX) }
+solveImplication end }
+  has_given_eqs = NoGivenEqs
+  res_implic = Just Implic {
+                      TcLevel = 3
+                      Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+                      Given-eqs = NoGivenEqs
+                      Status = Solved {Dead givens = []}
+                      Given =
+                      Wanted = WC {}
+                      Binds = CoEvBindsVar<aFq>
+                      an explicit forall (k_alY :: Solver u_alX) }
+  implication evbinds = {}
+  implication tvcs = {co_aFt}
+solveNestedImplications end }
+  unsolved_implics = {Just Implic {
+                             TcLevel = 3
+                             Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+                             Given-eqs = NoGivenEqs
+                             Status = Solved {Dead givens = []}
+                             Given =
+                             Wanted = WC {}
+                             Binds = CoEvBindsVar<aFq>
+                             an explicit forall (k_alY :: Solver u_alX) }}
+resetUnificationFlag
+  ambient: 2
+  unif_lvl: Just 2
+simplify_loop: wc =
+  WC {wc_impl =
+        Implic {
+          TcLevel = 3
+          Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+          Given-eqs = NoGivenEqs
+          Status = Solved {Dead givens = []}
+          Given =
+          Wanted = WC {}
+          Binds = CoEvBindsVar<aFq>
+          an explicit forall (k_alY :: Solver u_alX) }}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+solveNestedImplications starting {
+solveNestedImplications end }
+  unsolved_implics = {Just Implic {
+                             TcLevel = 3
+                             Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+                             Given-eqs = NoGivenEqs
+                             Status = Solved {Dead givens = []}
+                             Given =
+                             Wanted = WC {}
+                             Binds = CoEvBindsVar<aFq>
+                             an explicit forall (k_alY :: Solver u_alX) }}
+resetUnificationFlag
+  ambient: 2
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {wc_impl =
+                   Implic {
+                     TcLevel = 3
+                     Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+                     Given-eqs = NoGivenEqs
+                     Status = Solved {Dead givens = []}
+                     Given =
+                     Wanted = WC {}
+                     Binds = CoEvBindsVar<aFq>
+                     an explicit forall (k_alY :: Solver u_alX) }}
+  current evbinds  = {}
+getHasGivenEqs
+  given_eqs: False
+  ge_lvl: 0
+  ambient level: 2
+  Inerts: {Innermost given equalities = 0
+           Given eqs at this level = False}
+  Insols: {}
+solveImplication 2
+  {}
+  WC {wc_impl =
+        Implic {
+          TcLevel = 3
+          Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+          Given-eqs = NoGivenEqs
+          Status = Solved {Dead givens = []}
+          Given =
+          Wanted = WC {}
+          Binds = CoEvBindsVar<aFq>
+          an explicit forall (k_alY :: Solver u_alX) }}
+setImplicationStatus(all-solved) {
+  Implic {
+    TcLevel = 2
+    Skolems = (u_alX[sk:2] :: k_aFi[tau:2])
+    Given-eqs = NoGivenEqs
+    Status = Unsolved
+    Given =
+    Wanted =
+      WC {wc_impl =
+            Implic {
+              TcLevel = 3
+              Skolems = (k_alY[sk:3] :: Solver u_alX[sk:2])
+              Given-eqs = NoGivenEqs
+              Status = Solved {Dead givens = []}
+              Given =
+              Wanted = WC {}
+              Binds = CoEvBindsVar<aFq>
+              an explicit forall (k_alY :: Solver u_alX) }}
+    Binds = CoEvBindsVar<aFr>
+    a standalone kind signature for ‘O’ }
+neededEvVars
+  old_needs: {}
+  seeds3: {co_aFt}
+  tcvs: {}
+  ev_binds: []
+  live_ev_binds: []
+setImplicationStatus(all-solved) }
+  discard: False
+  new_implic: Implic {
+                TcLevel = 2
+                Skolems = (u_alX[sk:2] :: k_aFi[tau:2])
+                Given-eqs = NoGivenEqs
+                Status = Solved {Dead givens = []}
+                Given =
+                Wanted = WC {}
+                Binds = CoEvBindsVar<aFr>
+                a standalone kind signature for ‘O’ }
+solveImplication end }
+  has_given_eqs = NoGivenEqs
+  res_implic = Just Implic {
+                      TcLevel = 2
+                      Skolems = (u_alX[sk:2] :: k_aFi[tau:2])
+                      Given-eqs = NoGivenEqs
+                      Status = Solved {Dead givens = []}
+                      Given =
+                      Wanted = WC {}
+                      Binds = CoEvBindsVar<aFr>
+                      a standalone kind signature for ‘O’ }
+  implication evbinds = {}
+  implication tvcs = {}
+solveNestedImplications end }
+  unsolved_implics = {Just Implic {
+                             TcLevel = 2
+                             Skolems = (u_alX[sk:2] :: k_aFi[tau:2])
+                             Given-eqs = NoGivenEqs
+                             Status = Solved {Dead givens = []}
+                             Given =
+                             Wanted = WC {}
+                             Binds = CoEvBindsVar<aFr>
+                             a standalone kind signature for ‘O’ }}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {wc_impl =
+                   Implic {
+                     TcLevel = 2
+                     Skolems = (u_alX[sk:2] :: k_aFi[tau:2])
+                     Given-eqs = NoGivenEqs
+                     Status = Solved {Dead givens = []}
+                     Given =
+                     Wanted = WC {}
+                     Binds = CoEvBindsVar<aFr>
+                     a standalone kind signature for ‘O’ }}
+  current evbinds  = {}
+zonkSimples done: {}
+zonkSimples done: {}
+applyDefaultingRules {
+  wanteds = WC {wc_impl =
+                  Implic {
+                    TcLevel = 2
+                    Skolems = (u_alX[sk:2] :: k_aFi[tau:2])
+                    Given-eqs = NoGivenEqs
+                    Status = Solved {Dead givens = []}
+                    Given =
+                    Wanted = WC {}
+                    Binds = CoEvBindsVar<aFr>
+                    a standalone kind signature for ‘O’ }}
+  groups  = []
+  info    = ([Integer, Double], (False, False))
+applyDefaultingRules } []
+pushLevelAndSolveEqualities }
+  Residual: WC {wc_impl =
+                  Implic {
+                    TcLevel = 2
+                    Skolems = (u_alX[sk:2] :: k_aFi[tau:2])
+                    Given-eqs = NoGivenEqs
+                    Status = Solved {Dead givens = []}
+                    Given =
+                    Wanted = WC {}
+                    Binds = CoEvBindsVar<aFr>
+                    a standalone kind signature for ‘O’ }}
+  Level: 1
+kindGeneralizeAll
+  forall (u :: k_aFi[tau:2]).
+  forall (k :: Solver u) -> (Constraint |> (TYPE {co_aFo})_N)
+quantifyTyVars {
+  ns_strat = DefaultOnlyNonStandardTyVars
+  dvs = DV {dv_kvs = {k_aFi[tau:2]}, dv_tvs = {}, dv_cvs = {}}
+Skolemising k_aFi[tau:2] := k_aFi[sk:1]
+writeMetaTyVar k_aFi[tau:2] :: * := k_aFi[sk:1]
+quantifyTyVars }
+  undefaulted: k_aFi[tau:2]
+  final_qtvs: k_aFi[sk:1]
+newNoTcEvBinds unique = aHg
+newNoTcEvBinds unique = aHh
+reportUnsolved {
+  type errors: ErrorWithoutFlag
+  expr holes: ErrorWithoutFlag
+  type holes: ErrorWithoutFlag
+  scope holes: ErrorWithoutFlag
+reportUnsolved (before zonking and tidying)
+  WC {wc_impl =
+        Implic {
+          TcLevel = 1
+          Skolems = k_aFi[sk:1]
+          Given-eqs = NoGivenEqs
+          Status = Unsolved
+          Given =
+          Wanted =
+            WC {wc_impl =
+                  Implic {
+                    TcLevel = 2
+                    Skolems = (u_alX[sk:2] :: k_aFi[tau:2])
+                    Given-eqs = NoGivenEqs
+                    Status = Solved {Dead givens = []}
+                    Given =
+                    Wanted = WC {}
+                    Binds = CoEvBindsVar<aFr>
+                    a standalone kind signature for ‘O’ }}
+          Binds = CoEvBindsVar<aHg>
+          a standalone kind signature for ‘O’ }}
+zonkSimples done: {}
+zonkSimples done: {}
+zonkSimples done: {}
+reportUnsolved (after zonking):
+  Free tyvars:
+  Tidy env: ([], [])
+  Wanted: WC {wc_impl =
+                Implic {
+                  TcLevel = 1
+                  Skolems = k_aFi[sk:1]
+                  Given-eqs = NoGivenEqs
+                  Status = Unsolved
+                  Given =
+                  Wanted =
+                    WC {wc_impl =
+                          Implic {
+                            TcLevel = 2
+                            Skolems = (u_alX[sk:2] :: k_aFi[sk:1])
+                            Given-eqs = NoGivenEqs
+                            Status = Solved {Dead givens = []}
+                            Given =
+                            Wanted = WC {}
+                            Binds = CoEvBindsVar<aFr>
+                            a standalone kind signature for ‘O’ }}
+                  Binds = CoEvBindsVar<aHg>
+                  a standalone kind signature for ‘O’ }}
+reportWanteds 1
+  Simples = {}
+  Suppress = False
+  tidy_cts   = []
+  tidy_items = []
+  tidy_errs = []
+reportWanteds suppressed: []
+tryReporters {
+  []
+  []
+tryReporters } []
+tryReporters {
+  []
+  []
+tryReporters } []
+reportImplic
+  tidy env: ([], [])
+  skols:      k_aFi[sk:1]
+  tidy skols: k_aFi[sk:1]
+reportWanteds 1
+  Simples = {}
+  Suppress = False
+  tidy_cts   = []
+  tidy_items = []
+  tidy_errs = []
+reportWanteds suppressed: []
+tryReporters {
+  []
+  []
+tryReporters } []
+tryReporters {
+  []
+  []
+tryReporters } []
+reportImplic
+  tidy env: ([ ESfdp :-> 1], [aFi :-> k_aFi[sk:1]])
+  skols:      (u_alX[sk:2] :: k_aFi[sk:1])
+  tidy skols: (u_alX[sk:2] :: k_aFi[sk:1])
+reportWanteds empty WC
+tryReporters {
+  []
+  []
+tryReporters } []
+tryReporters {
+  []
+  []
+tryReporters } []
+reportUnsolved }
+tc_top_lhs_type }
+  forall (k_alY :: Solver u_alX) -> Constraint
+  forall {k} (u :: k). forall (k :: Solver u) -> Constraint
+checkValidType
+  forall {k} (u :: k). forall (k :: Solver u) -> Constraint :: *
+check_type
+  forall {k} (u :: k). forall (k :: Solver u) -> Constraint
+  ArbitraryRank
+done ct forall {k} (u :: k). forall (k :: Solver u) -> Constraint
+checkValidType done
+  forall {k} (u :: k). forall (k :: Solver u) -> Constraint :: *
+---- kcTyClGroup ---- {
+  module Main
+  class (forall g_alO.
+         OT b_alN (g_alO :: Solver b_alN)) => O (b_alN :: Solver u_alM)
+checkInitialKinds {
+  [(O,
+    SAKS forall {k} (u :: k). forall (k :: Solver u) -> Constraint)]
+kcCheckDeclHeader_sig {
+  sig_kind: forall {k} (u :: k). forall (k :: Solver u) -> Constraint
+  sig_tcbs: [[infrd] (@k_aFi[sk:1]),
+             [spec] (@(u_alX[sk:1] :: k_aFi)),
+             [req] (@(k_alY[sk:1] :: Solver u_alX[sk:1]))]
+  sig_res_kind: Constraint
+pushLevelAndSolveEqualitiesX { Called from kcCheckDeclHeader_sig
+newMetaKindVar k_aHj[tau:1]
+bindImplicitTKBndrsX
+  [u_alM]
+  [u_alM[tyv:1]]
+tc_extend_local_env
+  [(u_alM, Type variable ‘u_alM’ = u_alM[tyv:1] :: k_aHj[tau:1])]
+tcExtendBinderStack [u_alM u_alM[tyv:1]]
+solveEqualities { Called from tcLHsKindSig
+lk1 Solver
+tcInferTyApps {
+  Solver
+  [HsValArg u_alM]
+tcInferTyApps (need to instantiate)
+  @k_alU
+  <InScope = {}
+   IdSubst   = []
+   TvSubst   = []
+   CvSubst   = []>
+cloneAnonMetaTyVar k_aHk[tau:1] :: *
+tcInferTyApps (vis normal app)
+  [->] k_alU
+  u_alM
+  k_alU
+  <InScope = {k_aHk[tau:1]}
+   IdSubst   = []
+   TvSubst   = [alU :-> k_aHk[tau:1]]
+   CvSubst   = []>
+lk1 u_alM
+tcInferTyApps {
+  u_alM
+  []
+tcInferTyApps } u_alM[tyv:1] :: k_aHj[tau:1]
+checkExpectedKind
+  u_alM[tyv:1]
+  k_aHj[tau:1]
+checkExpectedKindX
+  u_alM
+  act_kind': k_aHj[tau:1]
+  exp_kind: k_aHk[tau:1]
+u_tys
+  tclvl 1
+  k_aHj[tau:1] ~ k_aHk[tau:1]
+  arising from a type equality k_aHj[tau:1] ~ k_aHk[tau:1]
+u_tys
+  tclvl 1
+  * ~ *
+  arising from a kind equality arising from
+    k_aHj[tau:1] ~ k_aHk[tau:1]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aHj[tau:1] :: *
+  k_aHk[tau:1] :: *
+  True
+  <*>_N
+writeMetaTyVar k_aHj[tau:1] :: * := k_aHk[tau:1]
+u_tys yields no coercion
+checkExpectedKind
+  k_aHj[tau:1]
+  k_aHk[tau:1]
+  <k_aHk[tau:1]>_N
+tcInferTyApps (vis normal app) 2 k_aHk[tau:1]
+tcInferTyApps } Solver u_alM[tyv:1] :: *
+checkExpectedKind
+  Solver u_alM[tyv:1]
+  *
+checkExpectedKindX
+  Solver u_alM
+  act_kind': *
+  exp_kind: *
+newNoTcEvBinds unique = aHl
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+zonkSimples done: {}
+emitFlatConstraints { WC {}
+emitFlatConstraints }
+  simples: {}
+  errs:    {}
+emitDelayedErrors {}
+solveEqualities }
+tcLHsKindSig
+  Solver u_alM
+  Solver u_alM[tyv:1]
+kindGeneralizeNone Solver u_alM[tyv:1]
+checkValidType Solver u_alM[tyv:1] :: *
+done ct Solver u_alM[tyv:1]
+Ambiguity check for Solver u_alM[tyv:1]
+tc_sub_type (general case)
+  ty_actual   = Solver u_alM[tyv:1]
+  ty_expected = Solver u_alM[tyv:1]
+u_tys
+  tclvl 1
+  Solver u_alM[tyv:1] ~ Solver u_alM[tyv:1]
+  arising from a type equality
+    Solver u_alM[tyv:1] ~ Solver u_alM[tyv:1]
+u_tys
+  tclvl 1
+  k_aHk[tau:1] ~ k_aHk[tau:1]
+  arising from a type equality
+    Solver u_alM[tyv:1] ~ Solver u_alM[tyv:1]
+u_tys yields no coercion
+u_tys
+  tclvl 1
+  u_alM[tyv:1] ~ u_alM[tyv:1]
+  arising from a type equality
+    Solver u_alM[tyv:1] ~ Solver u_alM[tyv:1]
+u_tys yields no coercion
+u_tys yields no coercion
+simplifyAmbiguityCheck {
+  type =  Solver u_alM[tyv:1]
+  wanted =  WC {}
+newTcEvBinds unique = aHm
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyAmbiguityCheck }
+reportUnsolved(ambig) {
+reportUnsolved(ambig) }
+Done ambiguity check for Solver u_alM[tyv:1]
+checkValidType done Solver u_alM[tyv:1] :: *
+tcLHsKindSig2 Solver u_alM[tyv:1]
+u_tys
+  tclvl 1
+  Solver u_alM[tyv:1] ~ Solver u_alX[sk:1]
+  arising from a type equality
+    Solver u_alM[tyv:1] ~ Solver u_alX[sk:1]
+u_tys
+  tclvl 1
+  k_aHk[tau:1] ~ k_aFi
+  arising from a type equality
+    Solver u_alM[tyv:1] ~ Solver u_alX[sk:1]
+u_tys
+  tclvl 1
+  * ~ *
+  arising from a kind equality arising from k_aHk[tau:1] ~ k_aFi
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aHk[tau:1] :: *
+  k_aFi :: *
+  True
+  <*>_N
+writeMetaTyVar k_aHk[tau:1] :: * := k_aFi
+u_tys yields no coercion
+u_tys
+  tclvl 1
+  u_alM[tyv:1] ~ u_alX[sk:1]
+  arising from a type equality
+    Solver u_alM[tyv:1] ~ Solver u_alX[sk:1]
+u_tys
+  tclvl 1
+  k_aFi ~ k_aHk[tau:1]
+  arising from a kind equality arising from
+    u_alM[tyv:1] ~ u_alX[sk:1]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  u_alM[tyv:1] :: k_aHk[tau:1]
+  u_alX[sk:1] :: k_aFi
+  True
+  <k_aFi>_N
+writeMetaTyVar u_alM[tyv:1] :: k_aHk[tau:1] := u_alX[sk:1]
+u_tys yields no coercion
+u_tys yields no coercion
+tc_extend_local_env
+  [(b_alN,
+    Type variable ‘b_alN’ = b_alN[sk:1] :: Solver u_alX[sk:1])]
+tcExtendBinderStack [b_alN b_alN[sk:1]]
+kcCheckDeclHeader_sig 2
+  []
+  0
+  []
+  0
+u_tys
+  tclvl 1
+  Constraint ~ Constraint
+  arising from a type equality Constraint ~ Constraint
+u_tys yields no coercion
+newNoTcEvBinds unique = aHn
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+pushLevelAndSolveEqualities }
+  Residual: WC {}
+  Level: 1
+kcCheckDeclHeader swizzle
+  implicit_prs =  [(u_alM, u_alX[sk:1])]
+  implicit_nms =  [u_alM]
+  hs_tv_bndrs =  [(b_alN :: Solver u_alM)]
+  all_tcbs =  k_aFi[sk:1]
+              (u_alX[sk:1] :: k_aFi)
+              (b_alN[sk:1] :: Solver u_alX[sk:1])
+  swizzled_tcbs =  k_aFi[sk:1]
+                   (u_alM[sk:1] :: k_aFi[sk:1])
+                   (b_alN[sk:1] :: Solver u_alM[sk:1])
+  tycon_res_kind = Constraint
+  swizzled_kind = Constraint
+kcCheckDeclHeader_sig }
+  tyConName =  O
+  sig_kind = forall {k_aFi} u_alX.
+             forall (k :: Solver u_alX) -> Constraint
+  tyConKind = forall {k_aFi[sk:1]} u_alM[sk:1].
+              forall (b :: Solver u_alM[sk:1]) -> Constraint
+  tyConBinders =  [[infrd] (@k_aFi[sk:1]),
+                   [spec] (@(u_alM[sk:1] :: k_aFi[sk:1])),
+                   [req] (@(b_alN[sk:1] :: Solver u_alM[sk:1]))]
+  tyConResKind Constraint
+tc_extend_local_env
+  [(k_aFi, Type variable ‘k_aFi’ = k_aFi[sk:1] :: *),
+   (u_alM, Type variable ‘u_alM’ = u_alM[sk:1] :: k_aFi[sk:1]),
+   (b_alN, Type variable ‘b_alN’ = b_alN[sk:1] :: Solver u_alM[sk:1])]
+tcExtendBinderStack
+  [k_aFi k_aFi[sk:1], u_alM u_alM[sk:1], b_alN b_alN[sk:1]]
+checkInitialKinds done }
+tcExtendKindEnvList
+  [(O,
+    ATcTyCon O[tc] :: forall {k} (u :: k).
+                      forall (b :: Solver u) -> Constraint)]
+pushLevelAndSolveEqualitiesX {
+  Called from pushLevelAndSolveEqualities
+inferInitialKinds { []
+inferInitialKinds done }
+kcTyClGroup: initial kinds
+tcExtendKindEnvList []
+newNoTcEvBinds unique = aHo
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+pushLevelAndSolveEqualities }
+  Residual: WC {}
+  Level: 1
+---- kcTyClGroup end ---- }
+  O :: forall {k} (u :: k). forall (b :: Solver u) -> Constraint
+tcTyAndCl generalized kinds
+  (O,
+   [[infrd] (@k_aFi[sk:1]), [spec] (@(u_alM[sk:1] :: k_aFi[sk:1])),
+    [req] (@(b_alN[sk:1] :: Solver u_alM[sk:1]))],
+   Constraint
+   True)
+tcExtendKindEnvList
+  [(O,
+    ATcTyCon O[tc] :: forall {k} (u :: k).
+                      forall (b :: Solver u) -> Constraint)]
+---- tcTyClDecl ---- {
+  class (forall g_alO.
+         OT b_alN (g_alO :: Solver b_alN)) => O (b_alN :: Solver u_alM)
+bindTyClTyVars
+  O
+  [[infrd] (@k_aFi[sk:1]), [spec] (@(u_alM[sk:1] :: k_aFi[sk:1])),
+   [req] (@(b_alN[sk:1] :: Solver u_alM[sk:1]))]
+tc_extend_local_env
+  [(k_aFi, Type variable ‘k_aFi’ = k_aFi[sk:1] :: *),
+   (u_alM, Type variable ‘u_alM’ = u_alM[sk:1] :: k_aFi[sk:1]),
+   (b_alN, Type variable ‘b_alN’ = b_alN[sk:1] :: Solver u_alM[sk:1])]
+tcExtendBinderStack
+  [k_aFi k_aFi[sk:1], u_alM u_alM[sk:1], b_alN b_alN[sk:1]]
+tcClassDecl 1
+  O
+  [[infrd] (@k_aFi[sk:1]), [spec] (@(u_alM[sk:1] :: k_aFi[sk:1])),
+   [req] (@(b_alN[sk:1] :: Solver u_alM[sk:1]))]
+pushLevelAndSolveEqualitiesX {
+  Called from pushLevelAndSolveEqualities
+pushLevelAndCaptureConstraints { 2
+bindExplicitTKBndrs [g_alO]
+newMetaKindVar k_aHq[tau:2]
+tc_extend_local_env
+  [(g_alO, Type variable ‘g_alO’ = g_alO[sk:2] :: k_aHq[tau:2])]
+tcExtendBinderStack [g_alO g_alO[sk:2]]
+lk1 OT
+tcInferTyApps {
+  OT
+  [HsValArg b_alN, HsValArg (g_alO :: Solver b_alN)]
+tcInferTyApps (need to instantiate)
+  @k_alQ
+  <InScope = {}
+   IdSubst   = []
+   TvSubst   = []
+   CvSubst   = []>
+cloneAnonMetaTyVar k_aHr[tau:2] :: *
+tcInferTyApps (need to instantiate)
+  @u_alP
+  <InScope = {k_aHr[tau:2]}
+   IdSubst   = []
+   TvSubst   = [alQ :-> k_aHr[tau:2]]
+   CvSubst   = []>
+cloneAnonMetaTyVar u_aHs[tau:2] :: k_aHr[tau:2]
+tcInferTyApps (vis normal app)
+  b_alR
+  b_alN
+  Solver u_alP
+  <InScope = {k_aHr[tau:2] u_aHs[tau:2]}
+   IdSubst   = []
+   TvSubst   = [alP :-> u_aHs[tau:2], alQ :-> k_aHr[tau:2]]
+   CvSubst   = []>
+lk1 b_alN
+tcInferTyApps {
+  b_alN
+  []
+tcInferTyApps } b_alN[sk:1] :: Solver u_alM[sk:1]
+checkExpectedKind
+  b_alN[sk:1]
+  Solver u_alM[sk:1]
+checkExpectedKindX
+  b_alN
+  act_kind': Solver u_alM[sk:1]
+  exp_kind: Solver u_aHs[tau:2]
+u_tys
+  tclvl 2
+  Solver u_alM[sk:1] ~ Solver u_aHs[tau:2]
+  arising from a type equality
+    Solver u_alM[sk:1] ~ Solver u_aHs[tau:2]
+u_tys
+  tclvl 2
+  k_aFi[sk:1] ~ k_aHr[tau:2]
+  arising from a type equality
+    Solver u_alM[sk:1] ~ Solver u_aHs[tau:2]
+u_tys
+  tclvl 2
+  * ~ *
+  arising from a kind equality arising from
+    k_aHr[tau:2] ~ k_aFi[sk:1]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aHr[tau:2] :: *
+  k_aFi[sk:1] :: *
+  True
+  <*>_N
+writeMetaTyVar k_aHr[tau:2] :: * := k_aFi[sk:1]
+u_tys yields no coercion
+u_tys
+  tclvl 2
+  u_alM[sk:1] ~ u_aHs[tau:2]
+  arising from a type equality
+    Solver u_alM[sk:1] ~ Solver u_aHs[tau:2]
+u_tys
+  tclvl 2
+  k_aFi[sk:1] ~ k_aFi[sk:1]
+  arising from a kind equality arising from
+    u_aHs[tau:2] ~ u_alM[sk:1]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  u_aHs[tau:2] :: k_aFi[sk:1]
+  u_alM[sk:1] :: k_aFi[sk:1]
+  True
+  <k_aFi[sk:1]>_N
+writeMetaTyVar u_aHs[tau:2] :: k_aFi[sk:1] := u_alM[sk:1]
+u_tys yields no coercion
+u_tys yields no coercion
+checkExpectedKind
+  Solver u_alM[sk:1]
+  Solver u_aHs[tau:2]
+  <Solver u_alM[sk:1]>_N
+tcInferTyApps (vis normal app) 2 Solver u_aHs[tau:2]
+tcInferTyApps (vis normal app)
+  [->] Solver b_alR
+  (g_alO :: Solver b_alN)
+  Solver b_alR
+  <InScope = {u_alM[sk:1] b_alN[sk:1] k_aFi[sk:1] k_aHr[tau:2]
+              u_aHs[tau:2]}
+   IdSubst   = []
+   TvSubst   = [alP :-> u_aHs[tau:2], alQ :-> k_aHr[tau:2],
+                alR :-> b_alN[sk:1]]
+   CvSubst   = []>
+solveEqualities { Called from tcLHsKindSig
+lk1 Solver
+tcInferTyApps {
+  Solver
+  [HsValArg b_alN]
+tcInferTyApps (need to instantiate)
+  @k_alU
+  <InScope = {}
+   IdSubst   = []
+   TvSubst   = []
+   CvSubst   = []>
+cloneAnonMetaTyVar k_aHt[tau:2] :: *
+tcInferTyApps (vis normal app)
+  [->] k_alU
+  b_alN
+  k_alU
+  <InScope = {k_aHt[tau:2]}
+   IdSubst   = []
+   TvSubst   = [alU :-> k_aHt[tau:2]]
+   CvSubst   = []>
+lk1 b_alN
+tcInferTyApps {
+  b_alN
+  []
+tcInferTyApps } b_alN[sk:1] :: Solver u_alM[sk:1]
+checkExpectedKind
+  b_alN[sk:1]
+  Solver u_alM[sk:1]
+checkExpectedKindX
+  b_alN
+  act_kind': Solver u_alM[sk:1]
+  exp_kind: k_aHt[tau:2]
+u_tys
+  tclvl 2
+  Solver u_alM[sk:1] ~ k_aHt[tau:2]
+  arising from a type equality Solver u_alM[sk:1] ~ k_aHt[tau:2]
+u_tys
+  tclvl 2
+  * ~ *
+  arising from a kind equality arising from
+    k_aHt[tau:2] ~ Solver u_alM[sk:1]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aHt[tau:2] :: *
+  Solver u_alM[sk:1] :: *
+  True
+  <*>_N
+writeMetaTyVar k_aHt[tau:2] :: * := Solver u_alM[sk:1]
+u_tys yields no coercion
+checkExpectedKind
+  Solver u_alM[sk:1]
+  k_aHt[tau:2]
+  <Solver u_alM[sk:1]>_N
+tcInferTyApps (vis normal app) 2 k_aHt[tau:2]
+tcInferTyApps } Solver b_alN[sk:1] :: *
+checkExpectedKind
+  Solver b_alN[sk:1]
+  *
+checkExpectedKindX
+  Solver b_alN
+  act_kind': *
+  exp_kind: *
+newNoTcEvBinds unique = aHu
+solveWanteds {
+  Level = 2
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 2
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+zonkSimples done: {}
+emitFlatConstraints { WC {}
+emitFlatConstraints }
+  simples: {}
+  errs:    {}
+emitDelayedErrors {}
+solveEqualities }
+tcLHsKindSig
+  Solver b_alN
+  Solver b_alN[sk:1]
+kindGeneralizeNone Solver b_alN[sk:1]
+checkValidType Solver b_alN[sk:1] :: *
+done ct Solver b_alN[sk:1]
+Ambiguity check for Solver b_alN[sk:1]
+tc_sub_type (general case)
+  ty_actual   = Solver b_alN[sk:1]
+  ty_expected = Solver b_alN[sk:1]
+u_tys
+  tclvl 2
+  Solver b_alN[sk:1] ~ Solver b_alN[sk:1]
+  arising from a type equality
+    Solver b_alN[sk:1] ~ Solver b_alN[sk:1]
+u_tys
+  tclvl 2
+  Solver u_alM[sk:1] ~ Solver u_alM[sk:1]
+  arising from a type equality
+    Solver b_alN[sk:1] ~ Solver b_alN[sk:1]
+u_tys
+  tclvl 2
+  k_aFi[sk:1] ~ k_aFi[sk:1]
+  arising from a type equality
+    Solver b_alN[sk:1] ~ Solver b_alN[sk:1]
+u_tys yields no coercion
+u_tys
+  tclvl 2
+  u_alM[sk:1] ~ u_alM[sk:1]
+  arising from a type equality
+    Solver b_alN[sk:1] ~ Solver b_alN[sk:1]
+u_tys yields no coercion
+u_tys yields no coercion
+u_tys
+  tclvl 2
+  b_alN[sk:1] ~ b_alN[sk:1]
+  arising from a type equality
+    Solver b_alN[sk:1] ~ Solver b_alN[sk:1]
+u_tys yields no coercion
+u_tys yields no coercion
+simplifyAmbiguityCheck {
+  type =  Solver b_alN[sk:1]
+  wanted =  WC {}
+newTcEvBinds unique = aHv
+solveWanteds {
+  Level = 2
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 2
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyAmbiguityCheck }
+reportUnsolved(ambig) {
+reportUnsolved(ambig) }
+Done ambiguity check for Solver b_alN[sk:1]
+checkValidType done Solver b_alN[sk:1] :: *
+tcLHsKindSig2 Solver b_alN[sk:1]
+tc_infer_hs_type:sig
+  g_alO
+  Solver b_alN[sk:1]
+lk1 g_alO
+tcInferTyApps {
+  g_alO
+  []
+tcInferTyApps } g_alO[sk:2] :: k_aHq[tau:2]
+checkExpectedKind
+  g_alO[sk:2]
+  k_aHq[tau:2]
+checkExpectedKindX
+  g_alO
+  act_kind': k_aHq[tau:2]
+  exp_kind: Solver b_alN[sk:1]
+u_tys
+  tclvl 2
+  k_aHq[tau:2] ~ Solver b_alN[sk:1]
+  arising from a type equality k_aHq[tau:2] ~ Solver b_alN[sk:1]
+u_tys
+  tclvl 2
+  * ~ *
+  arising from a kind equality arising from
+    k_aHq[tau:2] ~ Solver b_alN[sk:1]
+u_tys yields no coercion
+uUnfilledVar2 ok
+  k_aHq[tau:2] :: *
+  Solver b_alN[sk:1] :: *
+  True
+  <*>_N
+writeMetaTyVar k_aHq[tau:2] :: * := Solver b_alN[sk:1]
+u_tys yields no coercion
+checkExpectedKind
+  k_aHq[tau:2]
+  Solver b_alN[sk:1]
+  <Solver b_alN[sk:1]>_N
+checkExpectedKind
+  g_alO[sk:2]
+  Solver b_alN[sk:1]
+checkExpectedKindX
+  g_alO :: Solver b_alN
+  act_kind': Solver b_alN[sk:1]
+  exp_kind: Solver b_alN[sk:1]
+u_tys
+  tclvl 2
+  Solver b_alN[sk:1] ~ Solver b_alN[sk:1]
+  arising from a type equality
+    Solver b_alN[sk:1] ~ Solver b_alN[sk:1]
+u_tys
+  tclvl 2
+  Solver u_alM[sk:1] ~ Solver u_aHs[tau:2]
+  arising from a type equality
+    Solver b_alN[sk:1] ~ Solver b_alN[sk:1]
+u_tys
+  tclvl 2
+  k_aFi[sk:1] ~ k_aHr[tau:2]
+  arising from a type equality
+    Solver b_alN[sk:1] ~ Solver b_alN[sk:1]
+u_tys yields no coercion
+u_tys
+  tclvl 2
+  u_alM[sk:1] ~ u_aHs[tau:2]
+  arising from a type equality
+    Solver b_alN[sk:1] ~ Solver b_alN[sk:1]
+u_tys yields no coercion
+u_tys yields no coercion
+u_tys
+  tclvl 2
+  b_alN[sk:1] ~ b_alN[sk:1]
+  arising from a type equality
+    Solver b_alN[sk:1] ~ Solver b_alN[sk:1]
+u_tys yields no coercion
+u_tys yields no coercion
+checkExpectedKind
+  Solver b_alN[sk:1]
+  Solver b_alN[sk:1]
+  <Solver b_alN[sk:1]>_N
+tcInferTyApps (vis normal app) 2 Solver b_alN[sk:1]
+tcInferTyApps } OT b_alN[sk:1] g_alO[sk:2] :: Constraint
+checkExpectedKind
+  OT b_alN[sk:1] g_alO[sk:2]
+  Constraint
+checkExpectedKindX
+  OT b_alN (g_alO :: Solver b_alN)
+  act_kind': Constraint
+  exp_kind: Constraint
+pushLevelAndCaptureConstraints } 2
+newNoTcEvBinds unique = aHx
+tcClassSigs 1 O
+tcClassSigs 2 O
+newNoTcEvBinds unique = aHy
+solveWanteds {
+  Level = 1
+  WC {wc_impl =
+        Implic {
+          TcLevel = 2
+          Skolems = (g_alO[sk:2] :: k_aHq[tau:2])
+          Given-eqs = NoGivenEqs
+          Status = Unsolved
+          Given =
+          Wanted = WC {}
+          Binds = CoEvBindsVar<aHx>
+          an explicit forall g_alO }}
+simplify_loop: wc =
+  WC {wc_impl =
+        Implic {
+          TcLevel = 2
+          Skolems = (g_alO[sk:2] :: k_aHq[tau:2])
+          Given-eqs = NoGivenEqs
+          Status = Unsolved
+          Given =
+          Wanted = WC {}
+          Binds = CoEvBindsVar<aHx>
+          an explicit forall g_alO }}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+solveNestedImplications starting {
+solveImplication {
+  Implic {
+    TcLevel = 2
+    Skolems = (g_alO[sk:2] :: k_aHq[tau:2])
+    Given-eqs = NoGivenEqs
+    Status = Unsolved
+    Given =
+    Wanted = WC {}
+    Binds = CoEvBindsVar<aHx>
+    an explicit forall g_alO }
+  Inerts {Innermost given equalities = 0
+          Given eqs at this level = False}
+solveWanteds {
+  Level = 2
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 2
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+getHasGivenEqs
+  given_eqs: False
+  ge_lvl: 0
+  ambient level: 2
+  Inerts: {Innermost given equalities = 0
+           Given eqs at this level = False}
+  Insols: {}
+solveImplication 2
+  {}
+  WC {}
+setImplicationStatus(all-solved) {
+  Implic {
+    TcLevel = 2
+    Skolems = (g_alO[sk:2] :: k_aHq[tau:2])
+    Given-eqs = NoGivenEqs
+    Status = Unsolved
+    Given =
+    Wanted = WC {}
+    Binds = CoEvBindsVar<aHx>
+    an explicit forall g_alO }
+neededEvVars
+  old_needs: {}
+  seeds3: {}
+  tcvs: {}
+  ev_binds: []
+  live_ev_binds: []
+setImplicationStatus(all-solved) }
+  discard: True
+  new_implic: Implic {
+                TcLevel = 2
+                Skolems = (g_alO[sk:2] :: k_aHq[tau:2])
+                Given-eqs = NoGivenEqs
+                Status = Solved {Dead givens = []}
+                Given =
+                Wanted = WC {}
+                Binds = CoEvBindsVar<aHx>
+                an explicit forall g_alO }
+solveImplication end }
+  has_given_eqs = NoGivenEqs
+  res_implic = Nothing
+  implication evbinds = {}
+  implication tvcs = {}
+solveNestedImplications end } unsolved_implics = {Nothing}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+pushLevelAndSolveEqualities }
+  Residual: WC {}
+  Level: 1
+doNotQuantifyTyVars
+  DV {dv_kvs = {k_aFi[sk:1], u_alM[sk:1], b_alN[sk:1]}, dv_tvs = {},
+      dv_cvs = {}}
+doNotQuantifyTyVars success
+tcClassDecl
+  []
+  [[infrd] (@k_aFi), [spec] (@(u_alM :: k_aFi)),
+   [req] (@(b_alN :: Solver u_alM))]
+  []
+---- tcTyClDecl end ---- } O
+Starting synonym cycle check [O]
+Done synonym cycle check [O]
+Starting validity check [O]
+Starting validity for tycon O
+checkValidTyCon
+  O
+  Just O
+check_valid_theta [forall (g :: Solver b_alN). OT b_alN g]
+check_type
+  forall (g :: Solver b_alN). OT b_alN g
+  ArbitraryRank
+Done validity for tycon O
+Done validity check [O]
+---- end tcTyClGroup ---- }
+tcAddTyCons
+  tycons [O]
+  implicits [Identifier ‘Main.$p1O’, Coercion axiom ‘Main.N:O’,
+             Data constructor ‘Main.C:O’, Identifier ‘Main.C:O’]
+tcExtendKindEnvList []
+tc_extend_local_env []
+Adding instances:
+addFamInsts
+tcAddTyCons
+  tycons []
+  implicits []
+tcExtendKindEnvList []
+tc_extend_local_env []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tcHsSigType { IO ()
+pushLevelAndSolveEqualitiesX { Called from tc_lhs_sig_type
+newAnonMetaTyVar t_aHG[tau:1]
+lk1 IO
+tcInferTyApps {
+  IO
+  [HsValArg ()]
+tcInferTyApps (vis normal app)
+  [->] *
+  ()
+  *
+  <InScope = {}
+   IdSubst   = []
+   TvSubst   = []
+   CvSubst   = []>
+tc_hs_type tuple []
+finish_tuple
+  BoxedTuple
+  []
+  *
+checkExpectedKind
+  ()
+  *
+checkExpectedKindX
+  ()
+  act_kind': *
+  exp_kind: *
+tcInferTyApps (vis normal app) 2 *
+tcInferTyApps } IO () :: *
+checkExpectedKind
+  IO ()
+  *
+checkExpectedKindX
+  IO ()
+  act_kind': *
+  exp_kind: TYPE t_aHG[tau:1]
+u_tys
+  tclvl 1
+  * ~ TYPE t_aHG[tau:1]
+  arising from a type equality * ~ TYPE t_aHG[tau:1]
+u_tys
+  tclvl 1
+  ghc-prim:GHC.Types.LiftedRep ~ t_aHG[tau:1]
+  arising from a type equality * ~ TYPE t_aHG[tau:1]
+u_tys
+  tclvl 1
+  ghc-prim:GHC.Types.RuntimeRep ~ ghc-prim:GHC.Types.RuntimeRep
+  arising from a kind equality arising from
+    t_aHG[tau:1] ~ ghc-prim:GHC.Types.LiftedRep
+u_tys yields no coercion
+uUnfilledVar2 ok
+  t_aHG[tau:1] :: ghc-prim:GHC.Types.RuntimeRep
+  ghc-prim:GHC.Types.LiftedRep :: ghc-prim:GHC.Types.RuntimeRep
+  True
+  <ghc-prim:GHC.Types.RuntimeRep>_N
+writeMetaTyVar
+  t_aHG[tau:1] :: ghc-prim:GHC.Types.RuntimeRep := ghc-prim:GHC.Types.LiftedRep
+u_tys yields no coercion
+u_tys yields no coercion
+checkExpectedKind
+  *
+  TYPE t_aHG[tau:1]
+  <*>_N
+newNoTcEvBinds unique = aO4
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+pushLevelAndSolveEqualities }
+  Residual: WC {}
+  Level: 1
+doNotQuantifyTyVars has nothing to error on
+tc_lhs_sig_type
+  HsOuterImplicit: []
+  HsOuterImplicit: []
+quantifyTyVars has nothing to quantify
+newNoTcEvBinds unique = aO5
+tcHsSigType 2
+  Implic {
+    TcLevel = 1
+    Skolems =
+    Given-eqs = NoGivenEqs
+    Status = Unsolved
+    Given =
+    Wanted = WC {}
+    Binds = CoEvBindsVar<aO5>
+    the type signature for ‘main’ }
+newNoTcEvBinds unique = aO6
+solveWanteds {
+  Level = 0
+  WC {wc_impl =
+        Implic {
+          TcLevel = 1
+          Skolems =
+          Given-eqs = NoGivenEqs
+          Status = Unsolved
+          Given =
+          Wanted = WC {}
+          Binds = CoEvBindsVar<aO5>
+          the type signature for ‘main’ }}
+simplify_loop: wc =
+  WC {wc_impl =
+        Implic {
+          TcLevel = 1
+          Skolems =
+          Given-eqs = NoGivenEqs
+          Status = Unsolved
+          Given =
+          Wanted = WC {}
+          Binds = CoEvBindsVar<aO5>
+          the type signature for ‘main’ }}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+solveNestedImplications starting {
+solveImplication {
+  Implic {
+    TcLevel = 1
+    Skolems =
+    Given-eqs = NoGivenEqs
+    Status = Unsolved
+    Given =
+    Wanted = WC {}
+    Binds = CoEvBindsVar<aO5>
+    the type signature for ‘main’ }
+  Inerts {Innermost given equalities = 0
+          Given eqs at this level = False}
+solveWanteds {
+  Level = 1
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 1
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+getHasGivenEqs
+  given_eqs: False
+  ge_lvl: 0
+  ambient level: 1
+  Inerts: {Innermost given equalities = 0
+           Given eqs at this level = False}
+  Insols: {}
+solveImplication 2
+  {}
+  WC {}
+setImplicationStatus(all-solved) {
+  Implic {
+    TcLevel = 1
+    Skolems =
+    Given-eqs = NoGivenEqs
+    Status = Unsolved
+    Given =
+    Wanted = WC {}
+    Binds = CoEvBindsVar<aO5>
+    the type signature for ‘main’ }
+neededEvVars
+  old_needs: {}
+  seeds3: {}
+  tcvs: {}
+  ev_binds: []
+  live_ev_binds: []
+setImplicationStatus(all-solved) }
+  discard: True
+  new_implic: Implic {
+                TcLevel = 1
+                Skolems =
+                Given-eqs = NoGivenEqs
+                Status = Solved {Dead givens = []}
+                Given =
+                Wanted = WC {}
+                Binds = CoEvBindsVar<aO5>
+                the type signature for ‘main’ }
+solveImplication end }
+  has_given_eqs = NoGivenEqs
+  res_implic = Nothing
+  implication evbinds = {}
+  implication tvcs = {}
+solveNestedImplications end } unsolved_implics = {Nothing}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+zonkSimples done: {}
+emitFlatConstraints { WC {}
+emitFlatConstraints }
+  simples: {}
+  errs:    {}
+emitDelayedErrors {}
+checkValidType IO () :: *
+done ct IO ()
+Ambiguity check for IO ()
+tc_sub_type (general case)
+  ty_actual   = IO ()
+  ty_expected = IO ()
+u_tys
+  tclvl 0
+  IO () ~ IO ()
+  arising from a type equality IO () ~ IO ()
+u_tys
+  tclvl 0
+  () ~ ()
+  arising from a type equality IO () ~ IO ()
+u_tys yields no coercion
+u_tys yields no coercion
+simplifyAmbiguityCheck {
+  type =  IO ()
+  wanted =  WC {}
+newTcEvBinds unique = aO7
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyAmbiguityCheck }
+reportUnsolved(ambig) {
+reportUnsolved(ambig) }
+Done ambiguity check for IO ()
+checkValidType done IO () :: *
+end tcHsSigType } IO ()
+tcuser IO ()
+tc_extend_local_env
+  [(main, Identifier[main::IO (), TopLevelLet {} True])]
+------------------------------------------------
+Bindings for { [main]
+Generalisation plan CheckGen main :: IO ()
+tcPolyCheck
+  main
+  app/Main.hs:6:1-13
+tc_extend_local_env []
+tcExtendBinderStack []
+tcExtendBinderStack [main_aO8[<NotTopLevel>]]
+tcMatchesFun
+  main_aO8
+  Check{IO ()}
+tcBody Check{IO ()}
+tcApp {
+  rn_fun: putStrLn
+  rn_args: [EValArg "a"]
+tcInferId putStrLn :: String -> IO ()
+tcInstFun
+  putStrLn
+  String -> IO ()
+  args: [EValArg "a"]
+  do_ql True
+tcInstFun:ret IO ()
+tc_sub_type_deep (general case)
+  ty_actual   = IO ()
+  ty_expected = IO ()
+tc_sub_type_ds
+  ty_actual   = IO ()
+  ty_expected = IO ()
+u_tys
+  tclvl 0
+  IO () ~ IO ()
+  arising from a type equality IO () ~ IO ()
+u_tys
+  tclvl 0
+  () ~ ()
+  arising from a type equality IO () ~ IO ()
+u_tys yields no coercion
+u_tys yields no coercion
+tcEValArg
+  VACall 1 putStrLn
+  arg type: String
+  arg: "a"
+tcPolyExpr Check{String}
+tcWrapResult
+  Actual:   String
+  Expected: Check{String}
+tc_sub_type_deep (general case)
+  ty_actual   = String
+  ty_expected = String
+tc_sub_type_ds
+  ty_actual   = String
+  ty_expected = String
+u_tys
+  tclvl 0
+  String ~ String
+  arising from a type equality String ~ String
+u_tys yields no coercion
+tcScalingUsage Many
+tcApp }
+  rn_fun: putStrLn
+  rn_args: [EValArg "a"]
+  inst_args [EValArg "a" :: String]
+  do_ql:   True
+  fun_sigma:   String -> IO ()
+  delta:       {}
+  app_res_rho: IO ()
+  exp_res_ty: Check{IO ()}
+  rn_expr: putStrLn "a"
+  tc_fun: putStrLn
+  tc_args: [EValArg "a"]
+  tc_expr: putStrLn "a"
+tcScalingUsage Many
+tcSpecPrags main []
+} End of bindings for
+  [main]
+  NonRecursive
+  main IO ()
+tcExtendBinderStack [main[<TopLevel>]]
+tc_extend_local_env [(main, Identifier[main::IO (), TopLevelLet])]
+complete_matches
+  [(NonRecursive, {main = putStrLn "a"})]
+  [main :: IO ()]
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+tc_extend_local_env
+  [(k_alQ, Type variable ‘k_alQ’ = k_alQ[ssk:1] :: *),
+   (u_alP, Type variable ‘u_alP’ = u_alP[ssk:1] :: k_alQ[ssk:1]),
+   (b_alR,
+    Type variable ‘b_alR’ = b_alR[ssk:1] :: Solver u_alP[ssk:1]),
+   (a_alS,
+    Type variable ‘a_alS’ = a_alS[ssk:1] :: Solver b_alR[ssk:1])]
+tcExtendBinderStack
+  [k_alQ k_alQ[ssk:1], u_alP u_alP[ssk:1], b_alR b_alR[ssk:1],
+   a_alS a_alS[ssk:1]]
+tc_extend_local_env
+  [(k_aFi, Type variable ‘k_aFi’ = k_aFi[ssk:1] :: *),
+   (u_alM, Type variable ‘u_alM’ = u_alM[ssk:1] :: k_aFi[ssk:1]),
+   (b_alN,
+    Type variable ‘b_alN’ = b_alN[ssk:1] :: Solver u_alM[ssk:1])]
+tcExtendBinderStack
+  [k_aFi k_aFi[ssk:1], u_alM u_alM[ssk:1], b_alN b_alN[ssk:1]]
+Tc7
+Tc7a
+newAnonMetaTyVar t_aOe[tau:0]
+tc_sub_type_deep (general case)
+  ty_actual   = IO ()
+  ty_expected = IO t_aOe[tau:0]
+tc_sub_type_ds
+  ty_actual   = IO ()
+  ty_expected = IO t_aOe[tau:0]
+u_tys
+  tclvl 0
+  IO () ~ IO t_aOe[tau:0]
+  arising from a type equality IO () ~ IO t_aOe[tau:0]
+u_tys
+  tclvl 0
+  () ~ t_aOe[tau:0]
+  arising from a type equality IO () ~ IO t_aOe[tau:0]
+u_tys
+  tclvl 0
+  * ~ *
+  arising from a kind equality arising from t_aOe[tau:0] ~ ()
+u_tys yields no coercion
+uUnfilledVar2 ok
+  t_aOe[tau:0] :: *
+  () :: *
+  True
+  <*>_N
+writeMetaTyVar t_aOe[tau:0] :: * := ()
+u_tys yields no coercion
+u_tys yields no coercion
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aOf
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aOg
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds [O, OT, M, Solver]
+mkTyConKindRepBinds
+  O
+  forall {k} (u :: k). forall (b :: Solver u) -> Constraint
+  Constraint
+mkTyConKindRepBinds
+  OT
+  forall k (u :: k). forall (b :: Solver u) -> Solver b -> Constraint
+  Solver b_alR -> Constraint
+mkTyConKindRepBinds
+  Main.C:OT
+  forall k (u :: k) (b :: Solver u) (a :: Solver b). OT b a
+  OT b_alR a_alS
+mkTyConKindRepBinds
+  M
+  forall k (u :: k). Solver u -> *
+  Solver u_alV -> *
+mkTyConKindRepBinds
+  Solver
+  forall k. k -> *
+  k_alU -> *
+Tc9
+Tc11
+Adding diagnostic:
+  app/Main.hs:1:1:: [GHC-85401]
+      The export item ‘module Main’ is missing an export list
+checkMain found main
+newAnonMetaTyVar t_aOG[tau:0]
+tcApp {
+  rn_fun: main
+  rn_args: []
+tcInferId main :: IO ()
+tcInstFun
+  main
+  IO ()
+  args: []
+  do_ql True
+tcInstFun:ret IO ()
+tc_sub_type_deep (general case)
+  ty_actual   = IO ()
+  ty_expected = IO t_aOG[tau:0]
+tc_sub_type_ds
+  ty_actual   = IO ()
+  ty_expected = IO t_aOG[tau:0]
+u_tys
+  tclvl 0
+  IO () ~ IO t_aOG[tau:0]
+  arising from a type equality IO () ~ IO t_aOG[tau:0]
+u_tys
+  tclvl 0
+  () ~ t_aOG[tau:0]
+  arising from a type equality IO () ~ IO t_aOG[tau:0]
+u_tys
+  tclvl 0
+  * ~ *
+  arising from a kind equality arising from t_aOG[tau:0] ~ ()
+u_tys yields no coercion
+uUnfilledVar2 ok
+  t_aOG[tau:0] :: *
+  () :: *
+  True
+  <*>_N
+writeMetaTyVar t_aOG[tau:0] :: * := ()
+u_tys yields no coercion
+u_tys yields no coercion
+tcApp }
+  rn_fun: main
+  rn_args: []
+  inst_args []
+  do_ql:   True
+  fun_sigma:   IO ()
+  delta:       {}
+  app_res_rho: IO ()
+  exp_res_ty: Check{IO t_aOG[tau:0]}
+  rn_expr: main
+  tc_fun: main
+  tc_args: []
+  tc_expr: main
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aPz
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aPA
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+Adding diagnostic:
+  app/Main.hs:24:1:: [GHC-38417]
+      Top-level type constructor with no standalone kind signature:
+        type OT :: forall k (u :: k).
+                   forall (b :: Solver u) -> Solver b -> Constraint
+Adding diagnostic:
+  app/Main.hs:11:1:: [GHC-38417]
+      Top-level type constructor with no standalone kind signature:
+        type M :: forall k (u :: k). Solver u -> *
+Adding diagnostic:
+  app/Main.hs:18:1:: [GHC-38417]
+      Top-level type constructor with no standalone kind signature:
+        type Solver :: forall k. k -> *

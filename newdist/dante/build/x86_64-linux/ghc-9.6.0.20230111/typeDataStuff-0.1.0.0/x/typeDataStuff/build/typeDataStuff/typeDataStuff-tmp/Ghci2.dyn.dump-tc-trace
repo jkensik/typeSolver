@@ -1,0 +1,5505 @@
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aOl
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aOm
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aOo
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aOp
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Adding diagnostic:
+  <interactive>:102:18: error:
+      Module ‘GHC.Exts’ does not export ‘Constra’
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aPK
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aPL
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aPM
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aPN
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aQm
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aQn
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aQo
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aQp
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aRm
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aRn
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aRo
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aRp
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aRY
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aRZ
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aS0
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aS1
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aSA
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aSB
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aSC
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aSD
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aTc
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aTd
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = aTe
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = aTf
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a139
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a13a
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a13b
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a13c
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a13z
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a13A
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a13B
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a13C
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a13Z
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a140
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a141
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a142
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a14p
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a14q
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a14r
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a14s
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1p5
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1p6
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1p7
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1p8
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1pv
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1pw
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1px
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1py
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1pV
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1pW
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1pX
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1pY
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1ql
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1qm
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1qn
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1qo
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1qL
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1qM
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1qN
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1qO
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1sB
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1sC
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1sD
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1sE
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1z4
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1z5
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1z6
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1z7
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1zE
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1zF
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1zG
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1zH
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1B6
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1B7
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1B8
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1B9
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1BG
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1BH
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1BI
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1BJ
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1D3
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1D4
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1D5
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1D6
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1XO
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1XP
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a1XQ
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a1XR
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2bi
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2bj
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2bk
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2bl
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2hC
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2hD
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2hE
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2hF
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2yU
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2yV
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2yW
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2yX
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2Ac
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2Ad
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2Ae
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2Af
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2AC
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2AD
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2AE
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2AF
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2Ch
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2Ci
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2Cj
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2Ck
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2QD
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2QE
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2QF
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2QG
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2Sp
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2Sq
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a2Sr
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a2Ss
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3iA
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3iB
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3iC
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3iD
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3KU
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3KV
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3KW
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3KX
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3Lw
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3Lx
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3Ly
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3Lz
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3MU
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3MV
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3MW
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3MX
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3UG
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3UH
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3UI
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3UJ
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3Vj
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3Vk
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3Vl
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3Vm
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3XX
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3XY
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a3XZ
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a3Y0
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5EE
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5EF
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5EG
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5EH
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5F4
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5F5
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5F6
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5F7
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5KL
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5KM
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5KN
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5KO
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5Lm
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5Ln
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5Lo
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5Lp
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5LX
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5LY
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5LZ
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5M0
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5My
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5Mz
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5MA
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5MB
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+checkFamInstConsistency [Data.Type.Equality, GHC.Exts, Prelude]
+setInteractiveContext
+  ic_tythings: Identifier ‘interactive:Ghci1.$trModule’
+  ic_insts:
+  icReaderEnv (LocalDef) [interactive:Ghci1.$trModule
+                            defined at <interactive>:1:1]
+Tc2 (src)
+Tc3
+tcExtendKindEnvList []
+tcExtendKindEnvList []
+tcDeriving []
+rnd
+Adding instances:
+Tc3b
+Tc3c
+tcSemigroupWarnings
+Tc4
+Tc4a
+Tc5
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+tcExtendKindEnvList []
+tc_extend_local_env []
+complete_matches
+  []
+  []
+complete_matches []
+Tc6
+Tc7
+Tc7a
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5St
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5Su
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+mkTypeableBinds []
+Tc9
+Tc11
+Adding diagnostic:
+  <interactive>:1:1:: [GHC-85401]
+      The export item ‘module Ghci2’ is missing an export list
+simplifyTop { wanted =  WC {}
+newTcEvBinds unique = a5Sv
+solveWanteds {
+  Level = 0
+  WC {}
+simplify_loop: wc = WC {}
+solveSimpleWanteds { {}
+solveSimpleWanteds end }
+  iterations = 1
+  residual = WC {}
+resetUnificationFlag
+  ambient: 0
+  unif_lvl: Nothing
+solveWanteds }
+  final wc = WC {}
+  current evbinds  = {}
+End simplifyTop }
+newTcEvBinds unique = a5Sw
+reportUnsolved (unsafe overlapping) {
+reportUnsolved (unsafe overlapping) }
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]
+setInteractiveContext
+  ic_tythings:
+  ic_insts:
+  icReaderEnv (LocalDef)
+checkFamInstConsistency
+  [Data.Type.Equality, GHC.Exts, Prelude, Main]

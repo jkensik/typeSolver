@@ -1,0 +1,84 @@
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+simplify_loop iteration=0 (definitely_redo = True, 1 simples to solve)
+Step 1[l:3,d:1] Solved by unification:
+    [W] hole{co_aFt} {1}:: t_aFj[tau:2]
+                           ghc-prim:GHC.Prim.~# ghc-prim:GHC.Types.LiftedRep
+unif_happened False
+unif_happened True
+simplify_loop iteration=1 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+unif_happened False
+Constraint solver steps = 1
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False
+simplify_loop iteration=0 (definitely_redo = True, 0 simples to solve)
+unif_happened False

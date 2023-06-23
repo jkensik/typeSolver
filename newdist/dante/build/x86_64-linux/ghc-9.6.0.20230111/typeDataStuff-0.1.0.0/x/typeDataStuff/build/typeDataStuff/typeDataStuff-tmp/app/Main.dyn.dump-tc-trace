@@ -1,0 +1,6 @@
+Adding diagnostic:
+  app/Main.hs:1:1:: Module `Prelude' implicitly imported
+checkFamInstConsistency [Data.Type.Equality, Prelude]
+Adding diagnostic:
+  app/Main.hs:21:22: error: [GHC-76037]
+      Not in scope: type variable ‘b’
